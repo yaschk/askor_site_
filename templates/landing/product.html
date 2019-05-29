@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ product.product_name }}{% endblock %}
+{% block content %}
+
+
+    <div class="container">
+
+<div class="card">
+	<div class="row">
+		<aside class="col-sm-5 border-right">
+  <div class="carusel">
+
+      <div class="exzoom" id="exzoom">
+  <!-- Images -->
+  <div class="exzoom_img_box">
+    <ul class='exzoom_img_ul'>
+        {% for image_item in product.productimage_set.all %}
+            <li><img itemprop="image" alt="{{ product.product_name }}" src={{ image_item.image.url }}/></li>
+        {% endfor %}
+    </ul>
+  </div>
+  <!-- <a href="https://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a> Nav-->
+  <div class="exzoom_nav"></div>
+  <!-- Nav Buttons -->
+{#  <p class="exzoom_btn">#}
+{#      <a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>#}
+{#      <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>#}
+{#  </p>#}
+</div>
+  </div>
+		</aside>
+		<aside class="col-sm-7">
+<article class="card-body p-5">
+    <h1 class="title mb-3" itemprop="name">{{ product.product_name }}</h1>
+
+    <hr>
+
+<p class="price-detail-wrap">
+    <h2>
+        <span class="price h3 text-warning">
+            <span class="num">{{ product.price }}</span><span class="currency"> грн/м</span>
+        </span>
+    </h2>
+ <!-- price-detail-wrap .// -->
+    <hr>
+
+<dl class="item-property">
+    <dd><p><span itemprop="description">{{ product.description|linebreaks}}</span></p></dd>
+</dl>
+
+	<hr>
+
+</article> <!-- card-body.// -->
+		</aside> <!-- col.// -->
+	</div> <!-- row.// -->
+</div> <!-- card.// -->
+
+</div>
+
+    <div class="product-footer">
+        {% include 'footer.html' %}
+    </div>
+
+{% endblock %}

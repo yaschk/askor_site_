@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Контакты{% endblock %}
+{% load cache %}
+{% block content %}
+
+    {% cache 5000 contacts-cashe%}
+    <div class="container wrapper contacts-cashe">
+        <div class="container information">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image"><i class="fa fa-envelope ico" aria-hidden="true"></i></div>
+                            <div class="info">
+                                <h3 class="title no-copy">ПОЧТА</h3>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> askor2012@ukr.net
+                                    <br>
+                                    <br>
+                                    <i class="fa fa-globe" aria-hidden="true"></i> www.askor160.com
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image"><i class="fa fa-mobile-alt ico" aria-hidden="true"></i></div>
+                            <div class="info">
+                                <h3 class="title no-copy">КОНТАКТЫ</h3>
+                                <p>
+                                    <i class="fa fa-mobile-alt" aria-hidden="true"></i> &nbsp +380444516950
+                                    <br>
+                                    <br>
+                                    <i class="fa fa-mobile-alt" aria-hidden="true"></i> &nbsp +380965789693
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="image"><i class="fa fa-map-marker-alt ico" aria-hidden="true"></i></div>
+                            <div class="info">
+                                <h3 class="title no-copy">АДРЕС</h3>
+                                <p>
+                                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i> &nbsp Украина, Киев, ул. Глебова, 7
+                                </p>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-footer">
+        {% include 'footer.html' %}
+    </div>
+
+    {% endcache %}
+
+{% endblock %}
+
+
+
+
+

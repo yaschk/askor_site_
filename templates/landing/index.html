@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load cache %}
+{% block content %}
+
+
+<div class="cor-wrap">
+    <div class="cor-raw">
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+              <div class="carusel-img">
+                  <img class="d-block w-100 no-copy" src="{% static 'img/slide-1.jpg' %}" alt="First slide Askor">
+              </div>
+        </div>
+          <div class="carousel-item">
+             <div class="carusel-img">
+                  <img class="d-block w-100 no-copy" src="{% static 'img/slide-2.png' %}" alt="Second slide Askor">
+              </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div>
+    </div>
+</div>
+{% cache 5000 catalog%}
+
+
+<div class="anchor" id="anchor"></div>
+
+<div class="catalog">
+<div class="section section1 first-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <br> <br>
+                    <h1 class="text-center section-name no-copy" >
+                        Конвееры с погруженными скребками (КПС)
+                    </h1>
+                <br>
+            </div>
+                {% for product_image in products_images_1 %}
+                {% include 'landing/product-item.html' %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="anchor" id="anchor1"></div>
+
+<div class="section section2 second-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <br> <br>
+                <h1 class="text-center section-name no-copy">
+                    Цепи вильчатые
+                </h1>
+                <br>
+            </div>
+                {% for product_image in products_images_2 %}
+                {% include 'landing/product-item.html' %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+<div class="anchor" id="anchor2"></div>
+
+<div class="section section3 third-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <br> <br>
+                <h1 class="text-center section-name no-copy">
+                    Цепи круглозвенные оцинкованные
+                </h1>
+                <br>
+            </div>
+                {% for product_image in products_images_3 %}
+                {% include 'landing/product-item.html' %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="anchor" id="anchor3"></div>
+
+<div class="section section4 fourth-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <br> <br>
+                <h1 class="text-center section-name no-copy">
+                    Транспортеры на базе вильчатых цепей
+                </h1>
+                <br>
+            </div>
+                {% for product_image in products_images_4 %}
+                {% include 'landing/product-item.html' %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+<div class='scrolltop'>
+    <div class='scroll icon scroll-button'><i class="fa fa-4x fa-angle-up"></i></div>
+</div>
+
+
+{% endcache %}
+{% include 'footer.html' %}
+{% endblock %}

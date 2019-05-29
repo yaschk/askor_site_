@@ -1,0 +1,28 @@
+<div class="border">
+
+  <div class="wrap">
+        <div class="product-wrap">
+          <a href="http://127.0.0.1:8001/media/{{product_image.image.url}}"><img itemprop="image" alt="{{ product_image.product.product_name }}" src={{ product_image.image.url }}></a>
+        </div>
+        <div class="loop-action">
+          <a href="{% url 'product' product_image.product.id %}" class="add-to-cart">Подробнее</a>
+        </div>
+  </div>
+    <div class="product-info">
+
+      <div class="product-title" itemprop="name"><h1 >{{ product_image.product.product_name }}</h1></div>
+      <div class="price text-warning"><h2>{{product_image.product.price}} грн/м</h2></div>
+      <div class="stock">{{product_image.product.in_stock}}</div>
+        {% if product_image.product.discount %}
+                <div class="discount-container">
+                      <span>{{ product_image.product.discount }}%</span>
+                </div>
+        {% endif %}
+        {% if product_image.product.add_info != '0' %}
+                <div class="add-info-container">
+                      <span>{{ product_image.product.add_info}}</span>
+                </div>
+        {% endif %}
+   </div>
+</div>
+
