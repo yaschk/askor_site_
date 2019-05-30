@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% load cache %}
+{#{% load cache %}#}
 {% block content %}
 
 
@@ -35,7 +35,7 @@
 </div>
     </div>
 </div>
-{% cache 5000 catalog%}
+{#{% cache 5000 catalog%}#}
 
 
 <div class="anchor" id="anchor"></div>
@@ -124,4 +124,4 @@
 
 {% endcache %}
 {% include 'footer.html' %}
-{% endblock %}
+{#{% endblock %}#}
