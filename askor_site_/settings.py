@@ -84,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         # 'NAME': os.environ['ASKOR_DB_NAME'],
-        'NAME': 'askor_site_',
-        'USER': 'askor_site_',
+        'NAME': 'askor_db',
+        'USER': 'ascor_admin',
             # os.environ['ASKOR_DB_USER'],
         'PASSWORD': 'ascord29041999',
             # os.environ['ASKOR_DB_PASSWORD'],
