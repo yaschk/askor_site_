@@ -17,7 +17,7 @@
   <div class="exzoom_img_box">
     <ul class='exzoom_img_ul'>
         {% for image_item in product.productimage_set.all %}
-            <li><img itemprop="image" alt="{{ product.product_name }}" src={{ image_item.image.url }}/></li>
+            <li><img itemprop="image" alt="{{ product.product_name }}" src={{ image_item.image.url }}></li>
         {% endfor %}
     </ul>
   </div>
