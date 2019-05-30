@@ -20,12 +20,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
-
+# SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = '!xbw$)w1m0#13f)_$&xt31dm&n_9pvc++iym(d^tcu6b3^4gfu'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+# DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+DEBUG = True
 
-ALLOWED_HOSTS = ['134.209.198.35', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,18 +77,21 @@ WSGI_APPLICATION = 'askor_site_.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
     # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #     'NAME': os.environ['ASKOR_DB_NAME'],
-    #     'USER': os.environ['ASKOR_DB_USER'],
-    #     'PASSWORD': os.environ['ASKOR_DB_PASSWORD'],
-    #     'HOST': 'localhost',
-    #     'PORT': '',
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': os.environ['ASKOR_DB_NAME'],
+        'NAME': 'askor_site_',
+        'USER': 'askor_site_',
+            # os.environ['ASKOR_DB_USER'],
+        'PASSWORD': 'ascord29041999',
+            # os.environ['ASKOR_DB_PASSWORD'],
+        'HOST': 'localhost',
+        'PORT': '',
+    }
 }
 
 

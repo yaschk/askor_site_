@@ -17,7 +17,7 @@ def product(request, product_id):
     return render(request, 'landing/product.html', locals())
 
 
-def info (request):
+def info(request):
 
     return render(request, 'landing/info.html', locals())
 
