@@ -25,6 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config.get('section', 'SECRET_KEY')
+# SECRET_KEY = '!xbw$)w1m0#13f)_$&xt31dm&n_9pvc++iym(d^tcu6b3^4gfu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
@@ -77,7 +78,6 @@ WSGI_APPLICATION = 'askor_site_.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
 DATABASES = {
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',
