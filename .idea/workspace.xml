@@ -78,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/askor_site_/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="620" column="1" selection-start-line="620" selection-start-column="1" selection-end-line="620" selection-end-column="1" />
+              <caret line="621" lean-forward="true" selection-start-line="621" selection-end-line="621" />
             </state>
           </provider>
         </entry>
@@ -147,10 +147,10 @@
         <option value="$PROJECT_DIR$/templates/landing/product-item.html" />
         <option value="$PROJECT_DIR$/static/css/style-contact-page.css" />
         <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
         <option value="$PROJECT_DIR$/templates/landing/info.html" />
         <option value="$PROJECT_DIR$/askor_site_/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -458,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="620" column="1" selection-start-line="620" selection-start-column="1" selection-end-line="620" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing/info.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -479,6 +472,13 @@
           <folding>
             <element signature="e#312#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="621" lean-forward="true" selection-start-line="621" selection-end-line="621" />
         </state>
       </provider>
     </entry>
