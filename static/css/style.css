@@ -23,7 +23,6 @@ body{
     bottom: 0;
     width: 100%;
     height: 60px;
-    min-width: 400px;
 }
 
 .add-info-container{
@@ -602,7 +601,8 @@ height: 100%;
 }
 
 .wrap-info-page{
-    margin-top: 40%;
+    margin-top: 20%;
     color: #ba2121;
-    font-size: 30em;
+    font-size: 10em;
+    background-color: #ba2121;
 }
