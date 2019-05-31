@@ -16,6 +16,8 @@ from configparser import RawConfigParser
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
 
+dev = True
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -24,7 +26,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config.get('section', 'SECRET_KEY')
+if dev:
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+else:
+    SECRET_KEY = config.get('section', 'SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
@@ -78,20 +83,24 @@ WSGI_APPLICATION = 'askor_site_.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': config.get('section', 'ASKOR_DB_NAME'),
-        'USER': config.get('section', 'ASKOR_DB_USER'),
-        'PASSWORD': config.get('section', 'ASKOR_DB_PASSWORD'),
-        'HOST': 'localhost',
-        'PORT': '',
+if dev:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': config.get('section', 'ASKOR_DB_NAME'),
+            'USER': config.get('section', 'ASKOR_DB_USER'),
+            'PASSWORD': config.get('section', 'ASKOR_DB_PASSWORD'),
+            'HOST': 'localhost',
+            'PORT': '',
+        }
+    }
 
 
 # Password validation
