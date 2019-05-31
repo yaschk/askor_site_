@@ -605,16 +605,21 @@ height: 100%;
 }
 
 .header-info{
+
     background-color: #343a40!important;
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: left;
-    border-radius: 30px 30px 5px 5px;
+    border-radius: 30px 30px 2px 2px;
     color: white;
+
 }
 
 .info-text{
+    text-align: justify;
     background-color: white;
-    padding: 15px;
+    padding: 25px;
+    border-radius: 2px 2px 30px 30px;
 }
+
