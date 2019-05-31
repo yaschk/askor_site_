@@ -1,55 +1,37 @@
 {% extends 'base.html' %}
 {% load static %}
-{#{% load cache %}#}
-{% block title %}О нас{% endblock %}
+{% load cache %}
+{% block title %}О компании{% endblock %}
 {% block content %}
-{#{% cache 5000 inf-cashe%}#}
+{% cache 5000 inf-cashe%}
 <div class="container inf-cashe">
         <div class="row">
             <div class="col-lg-12">
                 <div class="wrap-info-page">
-                    sdfsdf sdfsd dsfsd sdf
-                </div>
-{#                <div class="information-wrapper">#}
-{#                    Компания Аскор с 2012 года в кооперации с ведущими предприятиями Украины занимается выпуском тяговых органов на базе вильчатых цепей. Применение современных технологий изготовления, термообработки и контроля обеспечивает высокое качество наших транспортеров.#}
-{##}
-{#                    На сайте Вы найдете чертежи и фотографии производимых КПС(М)-200Т, КПС(М)-320Т, КПС(М)-500Т, КПС(М)-650Т на базе вильчатой цепи Р1-160. Вилка кованая из стали 30ХГСА, скребки Ст3.#}
-{##}
-{#                    Также готовы изготовить тяговые органы из цепей других марок стали со следующим шагом: 100, 101,6, 102, 125, 142, 160, 200, 260. Цена, условия поставки и оплаты будут даны в кратчайшие сроки после Вашего запроса.#}
-{##}
-{##}
-{#                    Также предлагаем к поставке цепи круглозвенные грузовые и тяговые оцинкованные методом электролитического цинкования (холодный метод) различных диаметров и размеров звена. Цепи выполнены по DIN 763 и ТУ 12.0173856.015-88. Цепи изготовлены с применением стыковой контактной электросварки, имеют "аккуратный" дополнительно обработанный сварной шов. Шаг цепей откалиброван, что дает возможность применения в цепных передачах.#}
-{##}
-{#                    Высококачественная оцинковка дает возможность использования цепей в открытых условиях, а также в воде.#}
-{#                    <div class="hhh">AAAAAAAAAAAAAAAAAA</div>#}
-{#                </div>#}
+                    <div class="header-info">
+                      <h1>О нас</h1>
+                    </div>
+                    <div class="info-text">
+                        <p>Компания Аскор с 2012 года в кооперации с ведущими предприятиями Украины занимается выпуском тяговых органов на базе вильчатых цепей. Применение современных технологий изготовления, термообработки и контроля обеспечивает высокое качество наших транспортеров.
 
-{#<div class="b-layout__content">#}
-{##}
-{#<div class="b-content">#}
-{#    <h1 class="b-title"><span class="no-copy">О нас</span></h1><div class="b-content__body b-online-edit"><a class="b-online-edit__link" data-edit-role="companyInfo" title="Редактировать описание" style="display:none"></a><a class="b-online-edit__horizontal-borders" data-edit-role="companyInfo" style="display:none"></a><a class="b-online-edit__vertical-borders" data-edit-role="companyInfo" style="display:none"></a><div class="b-user-content"><p><strong>Компания Аскор с 2012 года <span style="">в кооперации с ведущими предприяти</span><span style="">ями Украины </span>занимается выпуском тяговых органов на базе вильчатых цепей. Применение современных технологий изготовления, термообработки и контроля обеспечивает высокое качество наших транспортеров.</strong></p> <p><strong>На сайте Вы найдете чертежи и фотографии производимых <span style="font-size:10pt">КПС(М)-200Т, КПС(М)-320Т, КПС(М)-500Т, КПС(М)-650Т на базе вильчатой цепи Р1-160. Вилка кованая из стали 30ХГСА, скребки Ст3. </span></strong></p> <p style=""><strong><span style="font-size:10pt">Также готовы изготовить тяговые органы из цепей других марок стали со следующим шагом: 100, 101,6, 102, 125, 142, 160, 200, 260. </span><span style="font-size:10pt">Цена, условия поставки и оплаты будут даны в кратчайшие сроки после Вашего запроса.</span></strong></p> <p style=""><strong><span style="font-size:10pt"></span></strong></p> <p><strong><span style="font-size:10pt"></span>Также предлагаем к поставке цепи круглозвенные грузовые и тяговые оцинкованные методом электролитического цинкования (холодный метод) различных диаметров и размеров звена. Цепи выполнены по DIN 763 и ТУ 12.0173856.015-88. Цепи изготовлены с применением стыковой контактной электросварки, имеют "аккуратный" дополнительно обработанный <span style="">с</span><span style="">варной шов</span>. Шаг цепей откалиброван, что дает возможность применения в цепных передачах. </strong></p> <p style="text-align:justify"><strong>Высококачественная оцинковка дает возможность использования цепей в открытых условиях, а также в воде. </strong></p></div></div>#}
-{#    <div><div><h2 class="b-title no-copy">Сведения об компании</h2>#}
-{#        <div class="b-content__body b-contact-info b-online-edit">#}
-{#            <a class="b-online-edit__link" data-edit-role="companyInfo" title="Редактировать контактную информацию" style="display:none"></a>#}
-{#            <a class="b-online-edit__vertical-borders" data-edit-role="companyInfo" style="display:none"></a>#}
-{#            <a class="b-online-edit__horizontal-borders" data-edit-role="companyInfo" style="display:none"></a>#}
-{#            <div class="b-contact-info__group" title="Контактная информация"><span class="b-contact-info__value"><span><b>Контактное лицо:</b> Артем</span></span>#}
-{#                <div class="b-contact-info__row"><span class="b-contact-info__value"><b>Сайт компании: </b><a href="https://askor-company.prom.ua" target="_blank" title="https://askor-company.prom.ua">askor-company.prom.ua</a></span></div></div>#}
-{#            <div class="b-contact-info__group" ><div class="b-contact-info__row" ><b>Название: </b><span class="b-contact-info__value"><span title="ООО &#34;Компания Аскор&#34;">ООО &#34;Компания Аскор&#34;</span></span></div>#}
-{#                <div class="b-contact-info__row"><address class="b-contact-info__value"><b>Адрес: </b><span class="b-contact-info__comma" title="Украина">Украина, </span><span class="b-contact-info__comma" title="Киев">Киев, </span><span class="b-contact-info__comma" title="ул. Глебова, 7">ул. Глебова, 7</span></address></div>#}
-{#                <div id="ID-f37afa41-468f-4806-840d-2f2872b59112" class="b-contact-info__row" title="Телефон"><b>Телефон: </b><ul class="b-contact-info__value"><li  class="b-contact-info__phone js-ga-phone-hover" data-tg-hovered="[{&#34;ns&#34;: &#34;main&#34;, &#34;method&#34;: &#34;gatrackQueue&#34;, &#34;uuid&#34;: &#34;8309fbce3b5a11e9a9150cc47a9b0014&#34;, &#34;args&#34;: [&#34;contact_view&#34;, &#34;hover_phones&#34;, {&#34;label/label&#34;: &#34;company_site-about_us&#34;}]}, {&#34;ns&#34;: &#34;ym&#34;, &#34;method&#34;: &#34;reachGoal&#34;, &#34;uuid&#34;: &#34;8309fcfa3b5a11e9a9150cc47a9b0014&#34;, &#34;args&#34;: [&#34;company_contacts_hovered&#34;]}]"><span class="b-contact-info__comma notranslate">+380965789693</span></li><li  class="b-contact-info__phone js-ga-phone-hover" data-tg-hovered="[{&#34;ns&#34;: &#34;main&#34;, &#34;method&#34;: &#34;gatrackQueue&#34;, &#34;uuid&#34;: &#34;830a074a3b5a11e9a9150cc47a9b0014&#34;, &#34;args&#34;: [&#34;contact_view&#34;, &#34;hover_phones&#34;, {&#34;label/label&#34;: &#34;company_site-about_us&#34;}]}, {&#34;ns&#34;: &#34;ym&#34;, &#34;method&#34;: &#34;reachGoal&#34;, &#34;uuid&#34;: &#34;830a08083b5a11e9a9150cc47a9b0014&#34;, &#34;args&#34;: [&#34;company_contacts_hovered&#34;]}]"><span class="b-contact-info__comma notranslate">+380444516950</span></li></ul></div>#}
-{#                <div class="b-contact-info__row" ><b>Email: </b><span class="b-contact-info__value"><a href="mailto:askor2012@ukr.net" title="askor2012@ukr.net">askor2012@ukr.net</a></span></div><div class="b-contact-info__row" title="Реквизиты"><span class="b-contact-info__value"></span></div></div></div></div>#}
-{##}
-{#    </div></div>#}
-{#</div>#}
+                    На сайте Вы найдете чертежи и фотографии производимых КПС(М)-200Т, КПС(М)-320Т, КПС(М)-500Т, КПС(М)-650Т на базе вильчатой цепи Р1-160. Вилка кованая из стали 30ХГСА, скребки Ст3. 
+
+                    Также готовы изготовить тяговые органы из цепей других марок стали со следующим шагом: 100, 101,6, 102, 125, 142, 160, 200, 260. Цена, условия поставки и оплаты будут даны в кратчайшие сроки после Вашего запроса.
+
+
+                    <p>Также предлагаем к поставке цепи круглозвенные грузовые и тяговые оцинкованные методом электролитического цинкования (холодный метод) различных диаметров и размеров звена. Цепи выполнены по DIN 763 и ТУ 12.0173856.015-88. Цепи изготовлены с применением стыковой контактной электросварки, имеют "аккуратный" дополнительно обработанный сварной шов. Шаг цепей откалиброван, что дает возможность применения в цепных передачах. 
+
+                        Высококачественная оцинковка дает возможность использования цепей в открытых условиях, а также в воде.</p>
+                    </div>
+
+                </div>
             </div>
         </div>
 
 </div>
+{% endcache %}
 
-{% include 'footer.html' %}
-
-{#{% endcache %}#}
+        {% include 'footer.html' %}
 
 
 {% endblock %}

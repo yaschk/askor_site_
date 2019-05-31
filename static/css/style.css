@@ -601,8 +601,21 @@ height: 100%;
 }
 
 .wrap-info-page{
-    margin-top: 20%;
-    color: #ba2121;
-    font-size: 10em;
-    background-color: #ba2121;
+    margin-top: 15%;
+}
+
+.header-info{
+    min-width: 138px;
+    background-color: #343a40!important;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    border-radius: 100px 15px 100px 15px;
+    color: white;
+
+}
+
+.info-text{
+    background-color: white;
+    padding: 15px;
 }
