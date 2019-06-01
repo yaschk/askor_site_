@@ -602,10 +602,10 @@ height: 100%;
 
 .wrap-info-page{
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .header-info{
-
     background-color: #343a40!important;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -613,7 +613,6 @@ height: 100%;
     text-align: left;
     border-radius: 30px 30px 2px 2px;
     color: white;
-
 }
 
 .info-text{
@@ -622,4 +621,3 @@ height: 100%;
     padding: 25px;
     border-radius: 2px 2px 30px 30px;
 }
-
