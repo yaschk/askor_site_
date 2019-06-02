@@ -441,24 +441,24 @@
     /**
      * 导航向右
      */
-    function moveRight() {
-        imgIndex++;//先增加 index,后面判断范围
-        if (imgIndex > imgNum) {
-            imgIndex = imgNum;
-        }
-        move("right");
-    }
-
-    /**
-     * 导航向左
-     */
-    function moveLeft() {
-        imgIndex--;//先减少 index,后面判断范围
-        if (imgIndex < 0) {
-            imgIndex = 0;
-        }
-        move("left");
-    }
+    // function moveRight() {
+    //     imgIndex++;//先增加 index,后面判断范围
+    //     if (imgIndex > imgNum) {
+    //         imgIndex = imgNum;
+    //     }
+    //     move("right");
+    // }
+    //
+    // /**
+    //  * 导航向左
+    //  */
+    // function moveLeft() {
+    //     imgIndex--;//先减少 index,后面判断范围
+    //     if (imgIndex < 0) {
+    //         imgIndex = 0;
+    //     }
+    //     move("left");
+    // }
 
     /**
      * 自动播放
