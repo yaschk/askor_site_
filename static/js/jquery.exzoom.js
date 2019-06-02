@@ -291,19 +291,19 @@
         });
 
         //移动端大图区域的 touchend 事件
-        exzoom_img_ul.on("touchend", function (event) {
-            //触屏滑动,根据移动方向按倍数对齐元素
-            console.log(endX < startX);
-            if (endX < startX) {
-                //向左滑动
-                moveRight();
-            } else if (endX > startX) {
-                //向右滑动
-                moveLeft();
-            }
-
-            autoPlay();//恢复自动播放
-        });
+        // exzoom_img_ul.on("touchend", function (event) {
+        //     //触屏滑动,根据移动方向按倍数对齐元素
+        //     console.log(endX < startX);
+        //     if (endX < startX) {
+        //         //向左滑动
+        //         moveRight();
+        //     } else if (endX > startX) {
+        //         //向右滑动
+        //         moveLeft();
+        //     }
+        //
+        //     autoPlay();//恢复自动播放
+        // });
 
         //大屏幕在放大区域点击,判断向左还是向右移动
         exzoom_zoom_outer.on("mousedown", function (event) {
@@ -441,24 +441,24 @@
     /**
      * 导航向右
      */
-    // function moveRight() {
-    //     imgIndex++;//先增加 index,后面判断范围
-    //     if (imgIndex > imgNum) {
-    //         imgIndex = imgNum;
-    //     }
-    //     move("right");
-    // }
-    //
-    // /**
-    //  * 导航向左
-    //  */
-    // function moveLeft() {
-    //     imgIndex--;//先减少 index,后面判断范围
-    //     if (imgIndex < 0) {
-    //         imgIndex = 0;
-    //     }
-    //     move("left");
-    // }
+    function moveRight() {
+        imgIndex++;//先增加 index,后面判断范围
+        if (imgIndex > imgNum) {
+            imgIndex = imgNum;
+        }
+        move("right");
+    }
+
+    /**
+     * 导航向左
+     */
+    function moveLeft() {
+        imgIndex--;//先减少 index,后面判断范围
+        if (imgIndex < 0) {
+            imgIndex = 0;
+        }
+        move("left");
+    }
 
     /**
      * 自动播放
