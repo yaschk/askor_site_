@@ -16,7 +16,7 @@ from configparser import RawConfigParser
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
 
-dev = True
+dev = False
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -34,7 +34,8 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['askor.com.ua', 'www.askor.com.ua', 'localhost',
+                 '165.22.193.250', '165.22.193.250:80', '127.0.0.1:80', '127.0.0.1']
 
 
 # Application definition
