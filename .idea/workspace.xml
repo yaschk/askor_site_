@@ -51,7 +51,7 @@
           <entry key="jpg" value="1" />
           <entry key="js" value="3" />
           <entry key="po" value="1" />
-          <entry key="py" value="33" />
+          <entry key="py" value="34" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -63,7 +63,7 @@
           <entry key="JavaScript" value="3" />
           <entry key="Locale" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="33" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -72,7 +72,7 @@
           <entry key="html" value="1671" />
           <entry key="js" value="160" />
           <entry key="po" value="269" />
-          <entry key="py" value="427" />
+          <entry key="py" value="436" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -81,25 +81,13 @@
           <entry key="HTML" value="1671" />
           <entry key="JavaScript" value="160" />
           <entry key="Locale" value="269" />
-          <entry key="Python" value="427" />
+          <entry key="Python" value="436" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/askor_site_/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <element signature="e#312#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/askor/translation.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/askor_site_/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="53" />
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="53" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
               </folding>
@@ -148,8 +136,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="55" selection-end-column="15" />
+            <state relative-caret-position="309">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/askor_site_/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+              <folding>
+                <element signature="e#312#321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,8 +220,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="615" />
-    <option name="y" value="140" />
+    <option name="x" value="618" />
+    <option name="y" value="131" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -387,10 +387,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="495" y="105" width="784" height="832" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5994475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,7 +404,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3319027" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -592,7 +592,7 @@
     <entry file="file://$PROJECT_DIR$/askor_site_/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="53" />
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="53" />
           <folding>
             <element signature="e#635#667#0" expanded="true" />
           </folding>
@@ -601,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/askor_site_/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="242">
+          <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
           <folding>
             <element signature="e#312#321#0" expanded="true" />
           </folding>
@@ -611,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="55" selection-end-column="15" />
+        <state relative-caret-position="309">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
