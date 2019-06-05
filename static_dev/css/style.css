@@ -59,15 +59,9 @@ body{
     color: white;
 }
 
-
-
 .text-center{
     color: #F5F5F5;
 }
-
-
-
-
 
 .section-top{
     margin-bottom: 20px;
@@ -271,98 +265,10 @@ body{
   text-align: center;
 }
 
-
-.b-layout__content{
-
-
-    padding-top: 100px;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-bottom: 50px;
-    /*min-width: 800px;*/
-
-
-}
-
-.ccc{
-
-
-    padding-top: 100px;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-bottom: 100px;
-}
-
-.b-content {
-
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -o-border-radius: 10px;
-    border-radius: 10px;
-    background-color: #fff;
-}
-
-.b-content {
-    /*margin-bottom: 20px;*/
-
-}
-
-
 #info{
     position: sticky;
     height: 94%;
 }
-
-.b-title {
-    -moz-border-radius: 10px 10px 0 0;
-    -webkit-border-radius: 10px 10px 0 0;
-    -o-border-radius: 10px 10px 0 0;
-    border-radius: 10px 10px 0 0;
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efe1e0), color-stop(100%, #85a4a9));
-    /* background: -webkit-linear-gradient(top, #efe1e0, #bf8184); */
-    background: -moz-linear-gradient(top, #efe1e0, #bf8184);
-    background: -o-linear-gradient(top, #efe1e0, #bf8184);
-    background: -ms-linear-gradient(top, #efe1e0, #bf8184);
-    background: linear-gradient(top, #efe1e0, #bf8184);
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#efe1e0, endColorstr=#bf8184), progid:DXImageTransform.Microsoft.AlphaImageLoader();
-    color: #424546;
-    font-size: 20px;
-    line-height: 22px;
-    font-weight: bold;
-    zoom: 1;
-}
-
-.b-title {
-
-    display: block;
-    margin: 0;
-    padding: 10px 15px;
-    line-height: 24px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.b-content__body {
-    padding-bottom: 15px;
-}
-.b-online-edit {
-    position: relative;
-}
-.b-content__body {
-    padding: 10px 15px;
-}
-
-.b-content {
-    font-family: Arial,sans-serif;
-    font-size: .813em;
-    line-height: 1.125em;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
 
 
 .container-prod {
@@ -440,11 +346,6 @@ body{
 .dropdown-item:focus {
   background-color: #86939E;
 }
-
-/*.carusel{*/
-    /*width: 80%;*/
-    /*height: 90%;*/
-/*}*/
 
  /*---index---*/
 .cor-wrap{
@@ -701,3 +602,7 @@ height: 100%;
     font-size: 20px;
 }
 
+
+.footer-link{
+    padding-right: 100px;
+}

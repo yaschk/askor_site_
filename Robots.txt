@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Disallow: /admin/
+Disallow: /db.sqlite3
+Disallow: /static_dev/
