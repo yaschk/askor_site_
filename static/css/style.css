@@ -606,3 +606,21 @@ height: 100%;
 .footer-link{
     padding-right: 100px;
 }
+
+.inf-cashe{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.info-text{
+    background-color: white;
+    padding: 15px;
+    border-radius: 1px 1px 10px 10px;
+}
+
+.header-info{
+    background-color: #343a40!important;
+    padding: 12px;
+    color: white;
+    border-radius: 10px 10px 1px 1px;
+}
