@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark head-room" id="general-nav">
 
      <a class="navbar-brand" href="/">
@@ -14,26 +15,45 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown" id="menu-item">
             <a class="nav-link dropdown-toggle no-copy" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Товары и услуги
+                {% trans 'Товари та послуги' %}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item no-copy external" href="/#section-1">КОНВЕЙЕРЫ С ПОГРУЖЕННЫМИ СКРЕБКАМИ (КПС)</a>
+              <a class="dropdown-item no-copy external" href="/#section-1">{% trans 'Конвеєри із зануренням скребки' %}</a>
                 <div class="dropdown-divider external"></div>
-              <a class="dropdown-item no-copy external" href="/#section-2">Цепи вильчатые</a><div class="dropdown-divider"></div>
-              <a class="dropdown-item no-copy external" href="/#section-3">Цепи круглозвенные оцинкованные</a><div class="dropdown-divider"></div>
-              <a class="dropdown-item no-copy external"  href="/#section-4">Транспортеры на базе вильчатых цепей</a>
+              <a class="dropdown-item no-copy external" href="/#section-2">{% trans 'Ланцюги вильчаті' %}</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item no-copy external" href="/#section-3">{% trans 'Ланцюги оцинковані круглозвенні' %}</a><div class="dropdown-divider"></div>
+              <a class="dropdown-item no-copy external"  href="/#section-4">{% trans 'Транспортери на базі вільчатих ланцюгів'%}</a>
             </div>
       </li>
       <li class="nav-item" id="menu-item">
-            <a class="nav-link active no-copy external" href="/info">О компании</a>
+            <a class="nav-link active no-copy external" href="/info">{% trans 'Про компанію' %}</a>
       </li>
       <li class="nav-item" id="menu-item">
-            <a class="nav-link active no-copy external" href="/contacts">Контакты</a>
+            <a class="nav-link active no-copy external" href="/contacts">{% trans 'Контакти' %}</a>
       </li>
     </ul>
 
     <ul class="navbar-nav mr-auto">
         <li class="nav-link  external" style="color: white; "><i class="fa fa-mobile-alt" aria-hidden="true"></i> &nbsp +380965789693</li>
+    </ul>
+       <ul class="navbar-nav mr-auto">
+            <form class="lang-form" action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ redirect_to }}" />
+            <select name="language" onChange="this.form.submit();">
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% for lang in LANGUAGES %}
+                    <option class="decorated" value="{{ lang.0 }}" {% if lang.0 == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                        {% if lang.0 == 'uk' %}
+                            ua
+                        {% else %}
+                           {{ lang.0 }}
+                        {% endif %}
+                    </option>
+                {% endfor %}
+            </select>
+      </form>
     </ul>
   </div>
 </nav>

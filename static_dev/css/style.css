@@ -624,3 +624,21 @@ height: 100%;
     color: white;
     border-radius: 10px 10px 1px 1px;
 }
+
+select{
+    background-color: #343a40!important;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+select option {
+    text-transform: uppercase;
+    margin: 40px;
+    background: #86939E;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}

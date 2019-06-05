@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 {#{% load cache %}#}
 {% block content %}
 
@@ -47,7 +48,7 @@
             <div class="col-lg-12">
                 <br> <br>
                     <h2 class="text-center section-name no-copy" >
-                        Конвееры с погруженными скребками (КПС)
+                        {% trans 'Конвеєри із зануренням скребки'%}
                     </h2>
                 <br>
             </div>
@@ -66,7 +67,7 @@
             <div class="col-lg-12">
                 <br> <br>
                 <h2 class="text-center section-name no-copy">
-                    Цепи вильчатые
+                    {% trans 'Ланцюги вильчаті'%}
                 </h2>
                 <br>
             </div>
@@ -86,7 +87,7 @@
             <div class="col-lg-12">
                 <br> <br>
                 <h2 class="text-center section-name no-copy">
-                    Цепи круглозвенные оцинкованные
+                    {% trans 'Ланцюги оцинковані круглозвенні' %}
                 </h2>
                 <br>
             </div>
@@ -105,7 +106,7 @@
             <div class="col-lg-12">
                 <br> <br>
                 <h2 class="text-center section-name no-copy">
-                    Транспортеры на базе вильчатых цепей
+                    {% trans 'Транспортери на базі вільчатих ланцюгів'%}
                 </h2>
                 <br>
             </div>

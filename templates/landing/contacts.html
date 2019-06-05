@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}Контакты | Компания Аскор | Связаться с нами | Украина, Киев{% endblock %}
-{% load cache %}
+{#{% load cache %}#}
+{% load i18n %}
+{% block title %}{% trans 'Контакти | Підприємство Аскор | Адреса, Телефон | Україна, Київ' %}{% endblock %}
 {% block content %}
 
-    {% cache 5000 contacts-cashe%}
+{#    {% cache 5000 contacts-cashe%}#}
     <div class="container wrapper contacts-cashe">
         <div class="container-fluid information">
             <div class="row justify-content-center">
@@ -14,7 +15,7 @@
                         <div class="icon">
                             <div class="image"><i class="fa fa-envelope ico" aria-hidden="true"></i></div>
                             <div class="info">
-                                <h3 class="title no-copy">ПОЧТА</h3>
+                                <h3 class="title no-copy">{% trans 'ПОШТА' %}</h3>
                                 <p>
                                     <i class="fa fa-envelope" aria-hidden="true"></i> askor2012@ukr.net
                                     <br>
@@ -33,7 +34,7 @@
                         <div class="icon">
                             <div class="image"><i class="fa fa-mobile-alt ico" aria-hidden="true"></i></div>
                             <div class="info">
-                                <h3 class="title no-copy">КОНТАКТЫ</h3>
+                                <h3 class="title no-copy">{% trans 'КОНТАКТИ' %}</h3>
                                 <p>
                                     <i class="fa fa-mobile-alt" aria-hidden="true"></i> &nbsp +380444516950
                                     <br>
@@ -50,9 +51,9 @@
                         <div class="icon">
                             <div class="image"><i class="fa fa-map-marker-alt ico" aria-hidden="true"></i></div>
                             <div class="info">
-                                <h3 class="title no-copy">АДРЕС</h3>
+                                <h3 class="title no-copy">{% trans 'АДРЕСА' %}</h3>
                                 <p>
-                                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i> &nbsp Украина, Киев, ул. Глебова, 7
+                                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i> &nbsp {% trans 'Україна, Київ, вул. Глібова 7' %}
                                 </p>
                             </div>
                         </div>
@@ -62,13 +63,8 @@
             </div>
         </div>
     </div>
-
-{#    <div class="product-footer">#}
         {% include 'footer.html' %}
-{#    </div>#}
-
-    {% endcache %}
-
+{#    {% endcache %}#}
 {% endblock %}
 
 

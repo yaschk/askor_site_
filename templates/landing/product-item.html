@@ -1,12 +1,11 @@
+{% load i18n %}
 <div class="border">
-
   <div class="wrap">
         <div class="product-wrap">
           <a ><img itemprop="image" alt="{{ product_image.product.product_name }}" src={{ product_image.image.url }}></a>
         </div>
-{#      http://127.0.0.1:8001/media/{{product_image.image.url}}#}
         <div class="loop-action">
-          <a href="{% url 'product' product_image.product.id %}" class="add-to-cart">Подробнее</a>
+          <a href="{% url 'product' product_image.product.id %}" class="add-to-cart">{% trans 'Деталі' %}</a>
         </div>
   </div>
     <div class="product-info">

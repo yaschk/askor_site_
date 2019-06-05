@@ -12,11 +12,12 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 from configparser import RawConfigParser
+from django.utils.translation import ugettext_lazy as _
 
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
 
-dev = False
+dev = True
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,7 +33,7 @@ else:
     SECRET_KEY = config.get('section', 'SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['askor.com.ua', 'www.askor.com.ua', 'localhost',
                  '165.22.193.250', '165.22.193.250:80', '127.0.0.1:80', '127.0.0.1']
@@ -41,6 +42,7 @@ ALLOWED_HOSTS = ['askor.com.ua', 'www.askor.com.ua', 'localhost',
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,6 +60,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'askor_site_.urls'
@@ -74,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.i18n',
             ],
         },
     },
@@ -126,7 +132,17 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'uk'
+
+
+LANGUAGES = (
+    ('uk', _('Ukrainian')),
+    ('ru', _('Russian')),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
 TIME_ZONE = 'Europe/Kiev'
 
