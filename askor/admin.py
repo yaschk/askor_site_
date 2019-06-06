@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import *
 from modeltranslation.admin import TranslationAdmin
 
+
 class ProductCategoryAdmin (admin.ModelAdmin):
     list_display = [field.name for field in ProductCategory._meta.fields]
 

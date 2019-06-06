@@ -2,7 +2,9 @@
 {% load static %}
 {% load i18n %}
 {#{% load cache %}#}
-{% block title %}{% trans 'Про компанію | Вильчаті ланцюги, тягові органи та інші ланцюги | Київ, Україна' %}{% endblock %}
+{% block title %}{% trans 'Про компанію | Інформація про підприємство «ООО "Підприємство Аскор"»' %}{% endblock %}
+{% block description %}{% trans 'Інформація про підприємство «ООО "Підприємство Аскор"»'%}{% endblock %}
+{% block keywords %}{% trans 'інформація про підприємство, телефон, адреса, форма власності, запропоновані товари и услуги,  ООО "Підприємство Аскор"' %}{% endblock %}
 {% block content %}
 {#{% cache 5000 inf-cashe%}#}
 <div class="container inf-cashe">
@@ -21,8 +23,5 @@
         </div>
 </div>
 {#{% endcache %}#}
-
         {% include 'footer.html' %}
-
-
 {% endblock %}
