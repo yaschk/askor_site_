@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import *
-
+from modeltranslation.admin import TranslationAdmin
 
 class ProductCategoryAdmin (admin.ModelAdmin):
     list_display = [field.name for field in ProductCategory._meta.fields]
@@ -17,7 +17,7 @@ class ProductImageInline(admin.TabularInline):
     extra = 0
 
 
-class ProductAdmin (admin.ModelAdmin):
+class ProductAdmin (TranslationAdmin):
     list_display = [field.name for field in Product._meta.fields]
     inlines = [ProductImageInline]
     search_fields = ["product_name"]
