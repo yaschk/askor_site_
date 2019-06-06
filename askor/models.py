@@ -17,7 +17,7 @@ class ProductCategory(models.Model):
 class Product(models.Model):
 
     product_name = models.CharField(max_length=130, blank=True, null=True, default=None)
-    price = models.DecimalField(max_length=20, blank=True, null=True, max_digits=10, decimal_places=2, default=0.00)
+    price = models.DecimalField(max_length=10, blank=True, null=True, max_digits=10, decimal_places=2, default=0.00)
     in_stock = models.CharField(max_length=50, blank=True, null=True, default=0)
     add_info = models.CharField(max_length=50, blank=True, null=True, default=0)
     discount = models.IntegerField(default=0)
