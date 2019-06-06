@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>{% block title %}{{ product.product_name }} -  {% trans 'купити в Україні за найкращу ціну' %}{% endblock %}</title>
-    <meta name="description" content="ООО компания Аскор">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>{% block title %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}{% endblock %}</title>
+    <meta name="description" content={{ product.meta_description }}>
+    <meta name="keywords" content={{ product.keywords }}>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="{% static 'img/page-icon.ico' %}"/>

@@ -3,10 +3,10 @@
 {% load i18n %}
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>{% block title %}{% trans 'Аскор | Ланцюги — купити ланцюги вильчаті та інші в Україні | Краща якість та ціни' %}{% endblock %}</title>
-    <meta name="keywords" content="Цепи вильчатые, цепи вильчатые купить, цепи вильчатые купить, цепи купить, качественные цепи, цепи купить Украина">
-    <meta name="description" content="ООО компания Аскор">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>{% block title %}{% trans 'Аскор - контакти, товари, послуги, ціни' %}{% endblock %}</title>
+    <meta name="keywords" content={% block keywords %}{% trans 'Інформація про підприємство, опис підприємства, телефон, адреса, запропоновані товари та послуги, ООО Підприємство Аскор' %}{% endblock %}>
+    <meta name="description" content={% block description %}{% trans 'Контактна інформація, товари та послуги підприємства ООО Підприємство Аскор' %}{% endblock %}>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="{% static 'img/page-icon.ico' %}"/>
