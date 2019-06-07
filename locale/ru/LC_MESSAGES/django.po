@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 09:17+0300\n"
+"POT-Creation-Date: 2019-06-07 09:27+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,16 +164,16 @@ msgstr ""
 msgid "Деталі"
 msgstr "Подробнее"
 
+#: .\templates\landing\product-item.html:13 .\templates\landing\product.html:79
+msgid "від "
+msgstr "от"
+
 #: .\templates\landing\product.html:7
 msgid ""
 "Детальна інформація про товар/послугу та постачальника. Ціна та умови "
 "поставки"
 msgstr ""
 "Детальная информация о товаре/услуге и поставщика. Цена и условия поставки"
-
-#: .\templates\landing\product.html:79
-msgid "від"
-msgstr "от"
 
 #: .\templates\navbar.html:18
 msgid "Товари та послуги"
@@ -1365,6 +1365,9 @@ msgstr ""
 #: .\venv\Lib\site-packages\modeltranslation\widgets.py:25
 msgid "None"
 msgstr ""
+
+#~ msgid "від"
+#~ msgstr "от"
 
 #~ msgid ""
 #~ "Аскор | Ланцюги — купити ланцюги вильчаті та інші в Україні | Краща "
