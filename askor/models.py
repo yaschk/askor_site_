@@ -23,7 +23,6 @@ class Product(models.Model):
     discount = models.IntegerField(default=0)
     category = models.ForeignKey(ProductCategory, on_delete=models.CASCADE, blank=True, null=True, default=None)
     description = models.TextField(blank=True, null=True, default=None)
-    meta_description = models.TextField(blank=True, null=True, default=None)
     keywords = models.TextField(blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
