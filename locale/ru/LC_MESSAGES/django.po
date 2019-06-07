@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 15:07+0300\n"
+"POT-Creation-Date: 2019-06-07 15:20+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,7 +166,7 @@ msgstr "Подробнее"
 msgid "від"
 msgstr "от"
 
-#: .\templates\landing\product.html:7
+#: .\templates\landing\product.html:7 .\templates\landing\product.html:8
 msgid ""
 "Детальна інформація про товар/послугу та постачальника. Ціна та умови "
 "поставки"
@@ -1363,6 +1363,12 @@ msgstr ""
 #: .\venv\Lib\site-packages\modeltranslation\widgets.py:25
 msgid "None"
 msgstr ""
+
+#~ msgid ""
+#~ "Тяговий орган КПС-200. Детальна інформація про товар/послугу та "
+#~ "постачальника. Ціна та умови поставки"
+#~ msgstr ""
+#~ "Детальная информация о товаре/услуге и поставщика. Цена и условия поставки"
 
 #~ msgid "від "
 #~ msgstr "от"
