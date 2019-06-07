@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 09:27+0300\n"
+"POT-Creation-Date: 2019-06-07 15:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\askor_site_\settings.py:139
+#: .\askor_site_\settings.py:137
 msgid "Ukrainian"
 msgstr "Українська"
 
-#: .\askor_site_\settings.py:140
+#: .\askor_site_\settings.py:138
 msgid "Russian"
 msgstr "Русский"
 
@@ -59,8 +59,6 @@ msgid "адреса, телефон, факс, сайт, пошта, ООО \"П
 msgstr "адрес, телефон, факс, сайт, почта, ТОВ \"Компания Аскор\""
 
 #: .\templates\landing\contacts.html:7
-#, fuzzy
-#| msgid "Контактна інформація підприємства «ООО \"Підприємство Аскор\"»"
 msgid "Контактна інформація підприємства «ООО \"Підприємство Аскор\"»."
 msgstr "Контактная информация компании «ТОВ \"Компания Аскор\"»"
 
@@ -165,7 +163,7 @@ msgid "Деталі"
 msgstr "Подробнее"
 
 #: .\templates\landing\product-item.html:13 .\templates\landing\product.html:79
-msgid "від "
+msgid "від"
 msgstr "от"
 
 #: .\templates\landing\product.html:7
@@ -1366,7 +1364,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#~ msgid "від"
+#~ msgid "від "
 #~ msgstr "от"
 
 #~ msgid ""
