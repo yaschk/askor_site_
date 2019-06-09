@@ -34,9 +34,7 @@ else:
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-# ALLOWED_HOSTS = ['askor.com.ua', 'www.askor.com.ua', 'localhost',
-#                  '165.22.193.250', '165.22.193.250:80', '127.0.0.1:80', '127.0.0.1']
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['askor.com.ua', 'www.askor.com.ua', '46.101.208.46', '46.101.208.46:80',]
 
 # Application definition
 
