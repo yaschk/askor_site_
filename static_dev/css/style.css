@@ -385,12 +385,16 @@ height: 100%;
 }
 
 .section-name{
-    background-color: #E6E6FA;
     color: black;
     padding: 10px;
     font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
     position: relative;
     font-size: 200%;
+    background-color: rgb(230,230,250);
+    background-color: rgba(230,230,250, 0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
 .gallery-wrap .img-big-wrap img {
@@ -641,4 +645,38 @@ select option {
     background: #86939E;
     color: #fff;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container-404{
+    margin-top:  135px;
+    /*margin-bottom: 60px;*/
+}
+
+.container-404 img{
+    padding: 20px;
+    height: 400px;
+    width: 600px;
+
+}
+
+.header-404{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    /*text-align: center;*/
+    padding: 20px;
+}
+
+.help-404-text{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.container-500{
+    margin-top: 135px;
 }

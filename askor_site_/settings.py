@@ -17,7 +17,7 @@ from django.utils.translation import ugettext_lazy as _
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
 
-dev = False
+dev = True
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -32,7 +32,7 @@ else:
     SECRET_KEY = config.get('section', 'SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['askor.com.ua', 'www.askor.com.ua', 'localhost',
                  '165.22.193.250', '165.22.193.250:80', '127.0.0.1:80', '127.0.0.1']
 

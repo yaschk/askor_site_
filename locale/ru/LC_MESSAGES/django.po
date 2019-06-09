@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-07 15:20+0300\n"
+"POT-Creation-Date: 2019-06-09 14:33+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,26 @@ msgstr "Українська"
 #: .\askor_site_\settings.py:138
 msgid "Russian"
 msgstr "Русский"
+
+#: .\templates\404.html:4
+msgid "Помилка 404 | Сторінку не знайдено"
+msgstr "Ошибка 404 | Страницу не найдено"
+
+#: .\templates\404.html:5
+msgid "Сторінка помилки 404 | Сторінку не знайдено"
+msgstr "Страница ошибки 404 | Страницу не найдено"
+
+#: .\templates\404.html:6
+msgid "Помилка 404, сторінку не знайдено, неправильний запит, 404"
+msgstr "Ошибка 404, страницу не найдено, неправильный запрос, 404"
+
+#: .\templates\404.html:13
+msgid "Помилка 404. Ця сторінка недоступна"
+msgstr "Ошибка 404. Эта страница недоступна"
+
+#: .\templates\404.html:16
+msgid "Перейти на головну сторінку"
+msgstr "Перейти на главную страницу"
 
 #: .\templates\base.html:7
 msgid "Аскор - контакти, товари, послуги, ціни"

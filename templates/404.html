@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans 'Помилка 404 | Сторінку не знайдено' %}{% endblock %}
+{% block description %}{% trans 'Сторінка помилки 404 | Сторінку не знайдено'%}{% endblock %}
+{% block keywords %}{% trans 'Помилка 404, сторінку не знайдено, неправильний запит, 404' %}{% endblock %}
+{% block content %}
+    <div class="container container-404">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrap-404-page text-center">
+                    <div class="header-404 no-copy">
+                      <h1>{% trans 'Помилка 404. Ця сторінка недоступна' %}</h1>
+                    </div>
+                    <div class="help-404-text">
+                        <a href="/">{% trans 'Перейти на головну сторінку' %}</a>
+                    </div>
+                    <img class="no-copy img-fluid rounded-circle" id="404-page" src="{% static 'img/404-image.png' %}" alt="Error 404 image">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
