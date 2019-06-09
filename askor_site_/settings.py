@@ -14,8 +14,8 @@ import os
 from configparser import RawConfigParser
 from django.utils.translation import ugettext_lazy as _
 
-config = RawConfigParser()
-config.read('/webapps/askor_site_/settings.ini')
+# config = RawConfigParser()
+# config.read('/webapps/askor_site_/settings.ini')
 
 dev = False
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -29,7 +29,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if dev:
     SECRET_KEY = os.environ.get('SECRET_KEY')
 else:
-    SECRET_KEY = config.get('section', 'SECRET_KEY')
+    # SECRET_KEY = config.get('section', 'SECRET_KEY')
+    SECRET_KEY = '!xbw$)w1m0#13f)_$&xt31dm&n_9pvc++iym(d^tcu6b3^4gfu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
