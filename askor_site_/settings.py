@@ -96,12 +96,21 @@ if dev:
         }
     }
 else:
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #         'NAME': config.get('section', 'ASKOR_DB_NAME'),
+    #         'USER': config.get('section', 'ASKOR_DB_USER'),
+    #         'PASSWORD': config.get('section', 'ASKOR_DB_PASSWORD'),
+    #         'HOST': 'localhost',
+    #         'PORT': '',
+    #     }
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': config.get('section', 'ASKOR_DB_NAME'),
-            'USER': config.get('section', 'ASKOR_DB_USER'),
-            'PASSWORD': config.get('section', 'ASKOR_DB_PASSWORD'),
+            'NAME': 'askor_site_',
+            'USER': 'askor_site_',
+            'PASSWORD': 'ascord29041999',
             'HOST': 'localhost',
             'PORT': '',
         }
