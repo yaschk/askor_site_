@@ -3,6 +3,7 @@
 {% load i18n %}
 <html>
 <head>
+    {% block meta %}{% endblock %}
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>{% block title %}{% trans 'Аскор - контакти, товари, послуги, ціни' %}{% endblock %}</title>
     <meta name="keywords" content="{% block keywords %}{% trans 'Інформація про підприємство, опис підприємства, телефон, адреса, запропоновані товари та послуги, ООО Підприємство Аскор' %}{% endblock %}">
