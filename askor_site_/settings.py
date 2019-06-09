@@ -109,8 +109,8 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'askor_site_',
-            'USER': 'askor_site_',
+            'NAME': 'askor1_site_',
+            'USER': 'askor1_site_',
             'PASSWORD': 'ascord29041999',
             'HOST': 'localhost',
             'PORT': '',
