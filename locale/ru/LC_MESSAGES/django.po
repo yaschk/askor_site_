@@ -199,19 +199,19 @@ msgstr "Товары и услуги"
 
 #: .\templates\navbar.html:21
 msgid "Конвеєри із зануренням скребки"
-msgstr ""
+msgstr "Конвейеры с погруженными скребками (КПС"
 
 #: .\templates\navbar.html:23
 msgid "Ланцюги вильчаті"
-msgstr ""
+msgstr "Цепи вильчатые"
 
 #: .\templates\navbar.html:24
 msgid "Ланцюги оцинковані круглозвенні"
-msgstr ""
+msgstr "Цепи круглозвенные оцинкованные"
 
 #: .\templates\navbar.html:25
 msgid "Транспортери на базі вільчатих ланцюгів"
-msgstr ""
+msgstr "Транспортеры на базе вильчатых цепей"
 
 #: .\templates\navbar.html:29
 msgid "Про компанію"
