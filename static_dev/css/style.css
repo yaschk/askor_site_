@@ -114,6 +114,14 @@ body{
     padding: 10px;
 }
 
+.navbar{
+    min-width: 500px;
+}
+
+.footer{
+    min-width: 500px;
+}
+
 .nav-link-product{
     background-color: darkseagreen;
     color: #e7f5dc;
