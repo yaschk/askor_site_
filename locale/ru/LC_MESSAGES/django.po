@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-09 14:33+0300\n"
+"POT-Creation-Date: 2019-06-10 15:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\askor_site_\settings.py:137
+#: .\askor_site_\settings.py:142
 msgid "Ukrainian"
 msgstr "Українська"
 
-#: .\askor_site_\settings.py:138
+#: .\askor_site_\settings.py:143
 msgid "Russian"
 msgstr "Русский"
 
@@ -48,11 +48,11 @@ msgstr "Ошибка 404. Эта страница недоступна"
 msgid "Перейти на головну сторінку"
 msgstr "Перейти на главную страницу"
 
-#: .\templates\base.html:7
+#: .\templates\base.html:8
 msgid "Аскор - контакти, товари, послуги, ціни"
 msgstr "Аскор - контакты, товары, услуги, цены"
 
-#: .\templates\base.html:8
+#: .\templates\base.html:9
 msgid ""
 "Інформація про підприємство, опис підприємства, телефон, адреса, "
 "запропоновані товари та послуги, ООО Підприємство Аскор"
@@ -60,7 +60,7 @@ msgstr ""
 "Информация о компании, телефон, адрес, форма собствености, предлагаемые "
 "товары и услуги, ТОВ Компания Аскор"
 
-#: .\templates\base.html:9
+#: .\templates\base.html:10
 msgid ""
 "Контактна інформація, товари та послуги підприємства ООО Підприємство Аскор"
 msgstr "Контактная информация, товары и услуги компании ТОВ Компания Аскор"
@@ -98,20 +98,20 @@ msgstr "АДРЕС"
 msgid "Україна, Київ, вул. Глібова 7"
 msgstr "Украина, Киев, ул. Глебова 7"
 
-#: .\templates\landing\index.html:51 .\templates\navbar.html:21
-msgid "Конвеєри із зануренням скребки"
+#: .\templates\landing\index.html:51
+msgid "КОНВЕЄРИ ІЗ ЗАНУРЕННИМИ СКРІПКАМИ"
 msgstr "КОНВЕЙЕРЫ С ПОГРУЖЕННЫМИ СКРЕБКАМИ (КПС)"
 
-#: .\templates\landing\index.html:70 .\templates\navbar.html:23
-msgid "Ланцюги вильчаті"
+#: .\templates\landing\index.html:70
+msgid "ЛАНЦЮГИ ВИДЕЛКОВІ"
 msgstr "Цепи вильчатые"
 
-#: .\templates\landing\index.html:90 .\templates\navbar.html:24
-msgid "Ланцюги оцинковані круглозвенні"
+#: .\templates\landing\index.html:90
+msgid "ЛАНЦЮГИ ОЦИНКОВАНІ КРУГЛОЗВЕННІ"
 msgstr "Цепи круглозвенные оцинкованные"
 
-#: .\templates\landing\index.html:109 .\templates\navbar.html:25
-msgid "Транспортери на базі вільчатих ланцюгів"
+#: .\templates\landing\index.html:109
+msgid "ТРАНСПОРТЕРИ НА БАЗІ ВИДЕЛКОВИХ ЛАНЦЮГІВ"
 msgstr "Транспортеры на базе вильчатых цепей"
 
 #: .\templates\landing\info.html:5
@@ -196,6 +196,22 @@ msgstr ""
 #: .\templates\navbar.html:18
 msgid "Товари та послуги"
 msgstr "Товары и услуги"
+
+#: .\templates\navbar.html:21
+msgid "Конвеєри із зануренням скребки"
+msgstr ""
+
+#: .\templates\navbar.html:23
+msgid "Ланцюги вильчаті"
+msgstr ""
+
+#: .\templates\navbar.html:24
+msgid "Ланцюги оцинковані круглозвенні"
+msgstr ""
+
+#: .\templates\navbar.html:25
+msgid "Транспортери на базі вільчатих ланцюгів"
+msgstr ""
 
 #: .\templates\navbar.html:29
 msgid "Про компанію"

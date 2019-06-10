@@ -33,7 +33,10 @@ else:
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+if dev:
+    DEBUG = True
+else:
+    DEBUG = False
 if dev:
     ALLOWED_HOSTS = ['*']
 else:
