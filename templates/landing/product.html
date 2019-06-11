@@ -1,133 +1,29 @@
+{% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>{% block title %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}{% endblock %}</title>
-    <meta name="description" content="{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}">
-    <meta name="keywords" content="{{ product.keywords }}">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="{% static 'img/page-icon.ico' %}"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    <link href={% static "css/jquery.exzoom.css" %} rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-</head>
+{% block title %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}{% endblock %}
+{% block description %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}">{% endblock %}
+{% block keywords %}{{ product.keywords }}{% endblock %}
 
-<body class="Site">
-
-    <div class='thetop'></div>
-    <div class="loader">
-        <div class="loader-inner">
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-        </div>
+{% block content %}
+<div class="container container-prod-details">
+  <div class="row">
+    <div class="col-md-6 gallery">
+      <img class=" my-4 img-fluid" src="http://placehold.it/750x500" alt="">
     </div>
 
-    <div class="wrapper">
-        <div class="wrapper-content">
-            {% include 'navbar.html' %}
-                 <div class="container">
-
-<div class="card">
-	<div class="row">
-		<aside class="col-sm-5 border-right">
-  <div class="carusel">
-
-      <div class="exzoom" id="exzoom">
-  <!-- Images -->
-  <div class="exzoom_img_box">
-    <ul class='exzoom_img_ul'>
-        {% for image_item in product.productimage_set.all %}
-            <li><img itemprop="image" alt="{{ product.product_name }}" src={{ image_item.image.url }}></li>
-        {% endfor %}
-    </ul>
+    <div class="col-md-6 right-col">
+      <h1 class="my-4 prod-title-detail">{{ product.product_name }}</h1>
+        <hr>
+      <h3 class="my-3 prod-stock-detail">{{ product.in_stock }}</h3>
+        <hr>
+      <h3 class="my-3 prod-price-detail">{{ product.price}} грн/м</h3>
+        <hr>
+      <h3 class="my-3 prod-descr-detail">{{ product.description|linebreaks}}</h3>
+        <h3></h3>
+    </div>
   </div>
-  <!-- <a href="https://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a> Nav-->
-  <div class="exzoom_nav"></div>
-  <!-- Nav Buttons -->
-  <p class="exzoom_btn">
-      <a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>
-      <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
-  </p>
-</div>
-  </div>
-		</aside>
-		<aside class="col-sm-7">
-<article class="card-body p-5">
-    <h1 class="title mb-3" itemprop="name">{{ product.product_name }}</h1>
-
-    <hr>
-
-<p class="price-detail-wrap">
-    <h2>
-        <span class="price h3 text-warning">
-            <span class="num">{% trans 'від' %} {{ product.price }}</span><span class="currency"> грн/м</span>
-        </span>
-    </h2>
- <!-- price-detail-wrap .// -->
-    <hr>
-
-<dl class="item-property">
-    <dd><p><span itemprop="description">{{ product.description|linebreaks}}</span></p></dd>
-</dl>
-
-	<hr>
-
-</article> <!-- card-body.// -->
-		</aside> <!-- col.// -->
-	</div> <!-- row.// -->
-</div> <!-- card.// -->
-
 </div>
 
-    <div class="product-footer">
-        {% include 'footer.html' %}
-    </div>
-        </div>
-    </div>
-
-
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src={% static "js/jquery.exzoom.js" %}></script>
-    <script>
-        $(function(){
-            $("#exzoom").exzoom({
-            // thumbnail nav options
-            "navWidth": 60,
-            "navHeight": 60,
-            "navItemNum": 5,
-            "navItemMargin": 7,
-            "navBorder": 1,
-            // autoplay
-            "autoPlay": true,
-            // autoplay interval in milliseconds
-            "autoPlayTimeout": 15000
-          });
-        });
-    </script>
-    <script>
-       $(window).load(function() {
-        $(".loader").delay(100).fadeOut().remove();
-    });
-    </script>
-
-</body>
-</html>
-
+{% include 'footer.html' %}
+{% endblock %}
