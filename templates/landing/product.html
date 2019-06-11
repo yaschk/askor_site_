@@ -4,6 +4,7 @@
 {% block title %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}{% endblock %}
 {% block description %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}">{% endblock %}
 {% block keywords %}{{ product.keywords }}{% endblock %}
+{% block icon %}<link rel="shortcut icon" type="image/png" href="{% static 'img/page-icon.ico' %}"/>{% endblock %}
 
 {% block content %}
 <div class="container container-prod-details">
