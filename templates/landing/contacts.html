@@ -1,12 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
-{#{% load cache %}#}
 {% load i18n %}
-{% block title %}{% trans 'Адреса, телефон, пошта, факс підприємства — «ООО "Підприємство Аскор"»' %}{% endblock %}
-{% block keywords %}{% trans 'адреса, телефон, факс, сайт, пошта, ООО "Підприємство Аскор"' %}{%  endblock %}
-{% block description %}{% trans 'Контактна інформація підприємства «ООО "Підприємство Аскор"».' %}{% endblock %}
+{% block title %}{% trans 'Адреса, телефон, пошта, сайт підприємства — «ООО "Підприємство Аскор"»' %}{% endblock %}
+{% block keywords %}{% trans 'адреса, телефон, сайт, пошта, ООО "Підприємство Аскор"' %}{%  endblock %}
+{% block description %}{% trans 'Контактна інформація та адреса підприємства «ООО "Підприємство Аскор"».' %}{% endblock %}
 {% block content %}
-{#    {% cache 5000 contacts-cashe%}#}
     <div class="container wrapper contacts-cashe">
         <div class="container-fluid information">
             <div class="row justify-content-center">
@@ -65,7 +63,6 @@
         </div>
     </div>
         {% include 'footer.html' %}
-{#    {% endcache %}#}
 {% endblock %}
 
 
