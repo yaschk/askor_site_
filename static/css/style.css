@@ -579,7 +579,7 @@ height: 100%;
 	right:8%;
 	bottom:60px;
 	background:#b2b2b2;
-	background:rgba(178,178,178,0.7);
+	background:rgba(255,255,255,0.6);
 	padding: 15px 15px 10px 15px;
 	text-align: center;
 	margin: 0 0 0 0;
@@ -590,7 +590,7 @@ height: 100%;
 	-o-transition: 0.5s;
 }
 .scroll:hover {
-	background:rgba(178,178,178,1.0);
+	background:rgba(230,230,250,1);
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
