@@ -10,7 +10,7 @@
   </div>
     <div class="product-info">
       <div class="product-title" itemprop="name"><h3 >{{ product_image.product.product_name }}</h3></div>
-      <div class="price"><h4>{% trans 'від' %} {{product_image.product.price}} грн/м</h4></div>
+      <div class="price text-warning"><h4>{% trans 'від' %} {{product_image.product.price}} грн/м</h4></div>
       <div class="stock">{{product_image.product.in_stock}}</div>
         {% if product_image.product.discount %}
                 <div class="discount-container">

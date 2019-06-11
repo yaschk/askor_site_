@@ -53,5 +53,18 @@
         $(".loader").delay(100).fadeOut().remove();
     });
     </script>
+ <script>
+       $(window).scroll(function() {
+    if ($(this).scrollTop() > 70 ) {
+        $('.scrolltop:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltop').stop(true, true).fadeOut();
+    }
+});
+        $('.scroll-button').on('click', function(e){
+                $("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false
+
+            });
+    </script>
 </body>
 </html>
