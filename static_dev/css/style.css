@@ -139,8 +139,7 @@ body{
   background: white;
   position: relative;
   width: 300px;
-  margin: 10px auto;
-
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #F1E7E8;
   height: 100%;
@@ -233,25 +232,29 @@ body{
 .loop-action a:hover {color: black;}
 .loop-action a:hover:after {left: 0%;}
 .border:hover {border-color: #4966A2;}
-.product-info {padding-top: 15px;}
+.product-info {
+    padding-top: 15px;
+    font-size: 15px;
+}
 .stars {
   font-size: 14px;
-
 }
 
 .product-title {
   text-align: center;
   color: #162546;
-  font-size: 18px;
-  font-weight: bold;
+  /*font-size: 18px;*/
+  /*font-weight: bold;*/
 }
 
 .product-title h3{
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 .price {
-    padding-top: 5px;
+  padding-top: 5px;
   color: #162546;
   font-style: italic;
   font-weight: bold;
@@ -260,7 +263,7 @@ body{
 }
 
 .price h4{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .product-page-image{
@@ -281,6 +284,7 @@ body{
   font-style: italic;
   font-weight: bold;
   text-align: center;
+  padding-top: 5px;
 }
 
 #info{
@@ -385,9 +389,6 @@ body{
          max-height: 50vh;
 }
 
-.wrapper-content{
-    /*height: 100vh;*/
-}
 
 .carousel-inner{
     position: relative;
@@ -405,9 +406,9 @@ height: 100%;
 .section-name{
     color: black;
     padding: 20px;
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-family: monospace;
     position: relative;
-    font-size: 200%;
+    font-size: 300%;
     background-color: rgb(230,230,250);
     background-color: rgba(230,230,250, 0.8);
     text-transform: uppercase;
