@@ -691,6 +691,7 @@ select option {
 
 .prod-title-detail{
     font-family: monospace;
+    padding-left: 20px;
 }
 
 .prod-stock-detail{
