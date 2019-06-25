@@ -700,3 +700,42 @@ select option {
 .container-500{
     margin-top: 135px;
 }
+
+.container-prod-details{
+    margin-top: 135px;
+    margin-bottom: 100px;
+    background: whitesmoke;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.right-col{
+    text-align: left;
+}
+
+.prod-title-detail{
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 20px;
+}
+
+.prod-stock-detail{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    padding-left: 20px;
+}
+
+.prod-descr-detail{
+    font-size: 100%;
+    padding: 20px;
+}
+
+.prod-price-detail{
+    font-size: 150%;
+    padding-left: 20px;
+}
+
+.gallery{
+    border-right: 1px solid #dee2e6!important;
+    border-left: 1px solid #dee2e6!important;
+}
