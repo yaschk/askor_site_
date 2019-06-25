@@ -19,7 +19,6 @@ body{
     bottom: 0;
     width: 100%;
     height: 60px;
-    min-width: 500px;
 }
 
 .foot-content{
@@ -46,7 +45,7 @@ body{
 
 #header{
     font-size: 24px;
-    /*font-family: Open Sans;*/
+    font-family: Open Sans;
     color: #E6E6FA;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
@@ -118,6 +117,10 @@ body{
 }
 
 .navbar{
+    min-width: 500px;
+}
+
+.footer{
     min-width: 500px;
 }
 
@@ -240,12 +243,14 @@ body{
 .product-title {
   text-align: center;
   color: #162546;
+  /*font-size: 18px;*/
+  /*font-weight: bold;*/
 }
 
 .product-title h3{
     font-size: 20px;
     font-weight: bold;
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .price {
@@ -253,7 +258,8 @@ body{
   color: #162546;
   font-style: italic;
   font-weight: bold;
-  text-align: center;
+
+    text-align: center;
 }
 
 .price h4{
@@ -400,9 +406,9 @@ height: 100%;
 .section-name{
     color: black;
     padding: 10px;
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
     position: relative;
-    font-size: 300%;
+    font-size: 250%;
     background-color: rgb(230,230,250);
     background-color: rgba(230,230,250, 0.8);
     text-transform: uppercase;
@@ -439,10 +445,27 @@ height: 100%;
     cursor: zoom-in;
 }
 
+.card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carusel{
+    margin: 7%;
+    /*overflow: auto;*/
+}
+
+.exzoom_preview{
+}
+
 .product-footer{
-    bottom: 0px;
+        bottom: 0px;
     position: fixed;
     width: 100%;
+}
+
+.b-layout__content{
+    margin-bottom: 100px;
 }
 
 .loader {
@@ -653,6 +676,7 @@ select option {
     padding: 20px;
     height: 400px;
     width: 600px;
+
 }
 
 .header-404{
@@ -675,43 +699,4 @@ select option {
 
 .container-500{
     margin-top: 135px;
-}
-
-.container-prod-details{
-    margin-top: 135px;
-    margin-bottom: 100px;
-    background: whitesmoke;
-    padding: 30px;
-    border-radius: 25px;
-}
-
-.right-col{
-    text-align: left;
-}
-
-.prod-title-detail{
-    font-family: monospace;
-    padding-left: 20px;
-}
-
-.prod-stock-detail{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 100%;
-    padding-left: 20px;
-}
-
-.prod-descr-detail{
-    font-size: 100%;
-    padding: 20px;
-}
-
-.prod-price-detail{
-    font-size: 150%;
-    padding-left: 20px;
-}
-
-.gallery{
-    border-right: 1px solid #dee2e6!important;
-    border-left: 1px solid #dee2e6!important;
 }
