@@ -408,7 +408,7 @@ height: 100%;
     padding: 10px;
     font-family: 'Roboto Mono', monospace;
     position: relative;
-    font-size: 250%;
+    font-size: 200%;
     background-color: rgb(230,230,250);
     background-color: rgba(230,230,250, 0.8);
     text-transform: uppercase;
@@ -735,11 +735,12 @@ select::-ms-expand {
 .prod-title-detail{
     font-family: 'Roboto Mono', monospace;
     padding-left: 20px;
+    font-size: 160%;
 }
 
 .prod-stock-detail{
     font-style: italic;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 100%;
     padding-left: 20px;
 }
@@ -747,6 +748,7 @@ select::-ms-expand {
 .prod-descr-detail{
     font-size: 100%;
     padding: 20px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .prod-price-detail{
@@ -758,3 +760,4 @@ select::-ms-expand {
     border-right: 1px solid #dee2e6!important;
     border-left: 1px solid #dee2e6!important;
 }
+
