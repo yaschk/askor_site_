@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
+{% load currency %}
+{%  currency_context  %}
 {% block title %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}{% endblock %}
 {% block description %}{{ product.product_name }}. {% trans 'Детальна інформація про товар/послугу та постачальника. Ціна та умови поставки' %}{% endblock %}
 {% block keywords %}{{ product.keywords }}{% endblock %}
@@ -16,7 +18,7 @@
         <hr>
       <h3 class="my-3 prod-stock-detail">{{ product.in_stock }}</h3>
         <hr>
-      <h3 class="my-3 prod-price-detail">{{ product.price}} грн/м</h3>
+      <h3 class="my-3 prod-price-detail">{% change_currency product.price 'UAH' %} грн/м</h3>
         <hr>
       <h3 class="my-3 prod-descr-detail">{{ product.description|linebreaks}}</h3>
         <h3></h3>
