@@ -87,12 +87,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.i18n',
-
             ],
         },
     },
 ]
-
 
 
 WSGI_APPLICATION = 'askor_site_.wsgi.application'
@@ -179,11 +177,9 @@ STATICFILES_DIRS = (
 )
 
 if dev:
-    OPEN_EXCHANGE_RATES_APP_ID = os.environ.get('OPEN_EXCHANGE_RATES')
+    OPENEXCHANGERATES_APP_ID = os.environ.get('OPEN_EXCHANGE_RATES')
 else:
-    OPEN_EXCHANGE_RATES_APP_ID = config.get('section', 'OPEN_EXCHANGE_RATES')
-
-OPENEXCHANGERATES_APP_ID = '6ace9b2ac7144ac4b8805ba1ce0eb177'
+    OPENEXCHANGERATES_APP_ID = config.get('section', 'OPEN_EXCHANGE_RATES')
 
 
 CELERY_BROKER_URL = 'redis://localhost:6379'
@@ -197,8 +193,7 @@ CELERY_TIMEZONE = 'Europe/Kiev'
 CELERY_BEAT_SCHEDULE = {
     'task-number-one': {
         'task': 'askor.tasks.update_rates',
-        'schedule':  timedelta(seconds=30),
+        'schedule': crontab(hour=0, minute=0),
         'args': {},
     },
 }
-# crontab(hour=20, minute=0),
