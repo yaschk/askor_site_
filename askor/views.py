@@ -17,8 +17,7 @@ def index(request):
 
 def product(request, product_id):
     product = Product.objects.get(id=product_id)
-    value = Money(product.price, 'USD')
-    converted = str(convert_money(value, 'UAH'))[1:]
+    converted = str(convert_money(Money(product.price, 'USD'), 'UAH'))[1:]
     return render(request, 'landing/product.html', locals())
 
 

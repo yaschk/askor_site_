@@ -14,7 +14,7 @@ import os
 from configparser import RawConfigParser
 from django.utils.translation import ugettext_lazy as _
 from celery.schedules import crontab
-
+from datetime import timedelta
 
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'askor',
     'djmoney',
     'djmoney.contrib.exchange',
+    'currencies',
 ]
 
 
@@ -88,10 +89,13 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.i18n',
+
             ],
         },
     },
 ]
+
+
 
 WSGI_APPLICATION = 'askor_site_.wsgi.application'
 
@@ -181,18 +185,21 @@ if dev:
 else:
     OPEN_EXCHANGE_RATES_APP_ID = config.get('section', 'OPEN_EXCHANGE_RATES')
 
-CELERY_BROKER_URL = 'redis://localhost:6379'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379'
-CELERY_ACCEPT_CONTENT = ['application/json']
-CELERY_RESULT_SERIALIZER = 'json'
-CELERY_TASK_SERIALIZER = 'json'
-CELERY_TIMEZONE = 'Europe/Kiev'
+OPENEXCHANGERATES_APP_ID = '6ace9b2ac7144ac4b8805ba1ce0eb177'
 
-# Other Celery settings
-CELERY_BEAT_SCHEDULE = {
-    'task-number-one': {
-        'task': 'askor.tasks.update_rates',
-        'schedule':  crontab(minute=0, hour=0),
-        'args': {},
-    },
-}
+if not dev:
+    CELERY_BROKER_URL = 'redis://localhost:6379'
+    CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+    CELERY_ACCEPT_CONTENT = ['application/json']
+    CELERY_RESULT_SERIALIZER = 'json'
+    CELERY_TASK_SERIALIZER = 'json'
+    CELERY_TIMEZONE = 'Europe/Kiev'
+
+    # Other Celery settings
+    CELERY_BEAT_SCHEDULE = {
+        'task-number-one': {
+            'task': 'askor.tasks.update_rates',
+            'schedule':  timedelta(seconds=30),
+            'args': {},
+        },
+    }
