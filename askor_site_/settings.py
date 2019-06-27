@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 from configparser import RawConfigParser
 from django.utils.translation import ugettext_lazy as _
+from celery.schedules import crontab
+
 
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
@@ -36,7 +38,7 @@ else:
 if dev:
     DEBUG = True
 else:
-    DEBUG = False
+    DEBUG = True
 if dev:
     ALLOWED_HOSTS = ['*']
 else:
@@ -53,7 +55,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'askor',
+    'djmoney',
+    'djmoney.contrib.exchange',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -171,3 +176,23 @@ STATICFILES_DIRS = (
   os.path.join(BASE_DIR, "static_dev"),
 )
 
+OPEN_EXCHANGE_RATES_APP_ID = '6ace9b2ac7144ac4b8805ba1ce0eb177'
+
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Europe/Kiev'
+
+
+from celery.schedules import crontab
+from datetime import timedelta
+# Other Celery settings
+CELERY_BEAT_SCHEDULE = {
+    'task-number-one': {
+        'task': 'askor.tasks.update_rates',
+        'schedule':  timedelta(seconds=30),
+        'args': {},
+    },
+}
