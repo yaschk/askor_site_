@@ -22,10 +22,11 @@ from askor import views
 from django.conf.urls import url
 from django.conf.urls.i18n import i18n_patterns
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^i18n/', include('django.conf.urls.i18n')),
-
+    url(r'^currencies/', include('currencies.urls')),
 ]\
               + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) \
               + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
