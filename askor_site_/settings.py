@@ -38,7 +38,7 @@ else:
 if dev:
     DEBUG = True
 else:
-    DEBUG = True
+    DEBUG = False
 if dev:
     ALLOWED_HOSTS = ['*']
 else:
@@ -187,19 +187,19 @@ else:
 
 OPENEXCHANGERATES_APP_ID = '6ace9b2ac7144ac4b8805ba1ce0eb177'
 
-if not dev:
-    CELERY_BROKER_URL = 'redis://localhost:6379'
-    CELERY_RESULT_BACKEND = 'redis://localhost:6379'
-    CELERY_ACCEPT_CONTENT = ['application/json']
-    CELERY_RESULT_SERIALIZER = 'json'
-    CELERY_TASK_SERIALIZER = 'json'
-    CELERY_TIMEZONE = 'Europe/Kiev'
 
-    # Other Celery settings
-    CELERY_BEAT_SCHEDULE = {
-        'task-number-one': {
-            'task': 'askor.tasks.update_rates',
-            'schedule':  timedelta(seconds=30),
-            'args': {},
-        },
-    }
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Europe/Kiev'
+
+# Other Celery settings
+CELERY_BEAT_SCHEDULE = {
+    'task-number-one': {
+        'task': 'askor.tasks.update_rates',
+        'schedule':  timedelta(seconds=30),
+        'args': {},
+    },
+}
