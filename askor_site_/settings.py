@@ -38,7 +38,7 @@ else:
 if dev:
     DEBUG = True
 else:
-    DEBUG = True
+    DEBUG = False
 if dev:
     ALLOWED_HOSTS = ['*']
 else:
@@ -187,12 +187,12 @@ CELERY_TIMEZONE = 'Europe/Kiev'
 
 
 from celery.schedules import crontab
-from datetime import timedelta
+
 # Other Celery settings
 CELERY_BEAT_SCHEDULE = {
     'task-number-one': {
         'task': 'askor.tasks.update_rates',
-        'schedule':  timedelta(seconds=30),
+        'schedule':  crontab(minute=0, hour=0),
         'args': {},
     },
 }
