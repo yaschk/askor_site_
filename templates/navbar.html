@@ -34,9 +34,9 @@
     </ul>
 
     <ul class="navbar-nav mr-auto">
-        <li class="nav-link  external" style="color: white; "><i class="fa fa-mobile-alt" aria-hidden="true"></i>&nbsp <span>+3809<img>6578<img>9693</span></li>
+        <li class="nav-link  external" style="color: white; "><i class="fa fa-mobile-alt" aria-hidden="true"></i><span>&nbsp <span>+3809<img>6578<img>9693</span></span></li>
     </ul>
-       <ul class="navbar-nav mr-auto no-copy">
+       <ul class="navbar-nav  no-copy">
             <form class="lang-form" action="{% url 'set_language' %}" method="post">
             {% csrf_token %}
             <input name="next" type="hidden" value="{{ redirect_to }}" />

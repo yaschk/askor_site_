@@ -651,7 +651,7 @@ height: 100%;
 
 select{
     width: 40px;
-    /*background-color: #343a40!important;*/
+    margin-right: 40px;
     color: white;
     border: 0;
     text-transform: uppercase;
@@ -663,8 +663,6 @@ select{
     appearance: none;
     background: url(../img/down.ico) 96% / 15% no-repeat #343a40;
 }
-
-
 
 select option {
     text-transform: uppercase;
