@@ -7,5 +7,6 @@ from askor_site_.settings import dev
 if not dev:
     @task()
     def update_rates(backend=settings.EXCHANGE_BACKEND, **kwargs):
-        backend = import_string(backend)()
-        backend.updatecurrencies(**kwargs)
+        # backend = import_string(backend)()
+        # backend.updatecurrencies(**kwargs)
+        print('Hello')
