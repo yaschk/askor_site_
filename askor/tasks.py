@@ -7,7 +7,7 @@ import os
 
 @task()
 def update_rates():
-    os.system("python manage.py updatecurrencies oxr --base=USD")
+    # os.system("python manage.py updatecurrencies oxr --base=USD")
     print('Hello')
 
 
