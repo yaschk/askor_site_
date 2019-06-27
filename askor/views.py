@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from askor.models import *
-from django.views import generic
-from djmoney.money import Money
-from djmoney.contrib.exchange.models import convert_money
+
 
 
 def index(request):
@@ -17,7 +15,7 @@ def index(request):
 
 def product(request, product_id):
     product = Product.objects.get(id=product_id)
-    converted = str(convert_money(Money(product.price, 'USD'), 'UAH'))[1:]
+
     return render(request, 'landing/product.html', locals())
 
 
