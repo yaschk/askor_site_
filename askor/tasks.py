@@ -9,3 +9,4 @@ if not dev:
     def update_rates(backend=settings.EXCHANGE_BACKEND, **kwargs):
         backend = import_string(backend)()
         backend.updatecurrencies(**kwargs)
+	print('GO GO GO GO')
