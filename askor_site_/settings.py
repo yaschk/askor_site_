@@ -38,7 +38,7 @@ else:
 if dev:
     DEBUG = True
 else:
-    DEBUG = False
+    DEBUG = True
 if dev:
     ALLOWED_HOSTS = ['*']
 else:
