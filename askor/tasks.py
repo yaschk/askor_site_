@@ -14,4 +14,4 @@ from django.core.management import call_command
 def update_rates():
     # os.system("python manage.py updatecurrencies oxr --base=USD")
     print('Hello')
-    call_command('updatecurrencies oxr --base=USD')
+    call_command('updatecurrencies')

@@ -197,7 +197,7 @@ CELERY_TIMEZONE = 'Europe/Kiev'
 CELERY_BEAT_SCHEDULE = {
     'task-number-one': {
         'task': 'askor.tasks.update_rates',
-        'schedule':  timedelta(seconds=30),
+        'schedule':  crontab(hour=0, minute=0),
         'args': {},
     },
 }
