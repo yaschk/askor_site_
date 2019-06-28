@@ -4,16 +4,18 @@ from askor.models import *
 
 def index(request):
     products_images = ProductImage.objects.filter(is_active=True, is_main=True, product__is_active=True)
-    products_images_1 = products_images.filter(product__category__id=1)
-    products_images_2 = products_images.filter(product__category__id=2)
-    products_images_3 = products_images.filter(product__category__id=3)
-    products_images_4 = products_images.filter(product__category__id=4)
+    products_images_1 = products_images.filter(product__category__id=1).order_by("-product__clicks")
+    products_images_2 = products_images.filter(product__category__id=2).order_by("-product__clicks")
+    products_images_3 = products_images.filter(product__category__id=3).order_by("-product__clicks")
+    products_images_4 = products_images.filter(product__category__id=4).order_by("-product__clicks")
 
     return render(request, 'landing/index.html', locals())
 
 
 def product(request, product_id):
     product = Product.objects.get(id=product_id)
+    product.clicks += 1
+    product.save()
     return render(request, 'landing/product.html', locals())
 
 

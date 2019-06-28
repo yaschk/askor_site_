@@ -27,6 +27,7 @@ class Product(models.Model):
     is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+    clicks = models.IntegerField(default=0, null=True)
 
     def __str__(self):
 
