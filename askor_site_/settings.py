@@ -19,7 +19,7 @@ from datetime import timedelta
 config = RawConfigParser()
 config.read('/webapps/askor_site_/settings.ini')
 
-dev = True
+dev = False
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
