@@ -1,0 +1,27 @@
+{% load static %}
+
+<div class="cat-border">
+  <div class="wrap">
+      {% if product_category.name in arr %}
+        <a class="cat-link" href="{% url 'product_catalog' product_category.id %}">
+          <style>
+            #cat{{ product_category.id }}:hover, #cat{{ product_category.id }}:focus, #cat{{ product_category.id }}:active {
+              background: url({% static 'img/more-info.png' %}) no-repeat 50% 50%;
+             }
+
+            #cat{{ product_category.id }}:hover img, #cat{{ product_category.id }}:focus img, #cat{{ product_category.id }}:active img  {
+              background: transparent;
+              /*visibility: hidden;*/
+              opacity: 0.3;
+            }
+          </style>
+      {% endif %}
+        <div class="category-wrap" id="cat{{ product_category.id }}">
+            <img itemprop="image" class="no-copy" alt="{{ product_category.name }}" src={{ product_category.image.url }}>
+        </div>
+        <div class="cat-name no-copy">{{ product_category.name }}</div>
+  {% if product_category.name in arr %}
+      </a>
+  {% endif %}
+  </div>
+</div>

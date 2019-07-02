@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 11:22+0300\n"
+"POT-Creation-Date: 2019-07-02 15:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\askor_site_\settings.py:142
+#: .\askor_site_\settings.py:147
 msgid "Ukrainian"
 msgstr "Українська"
 
-#: .\askor_site_\settings.py:143
+#: .\askor_site_\settings.py:148
 msgid "Russian"
 msgstr "Русский"
 
@@ -49,49 +49,54 @@ msgid "Перейти на головну сторінку"
 msgstr "Перейти на главную страницу"
 
 #: .\templates\base.html:8
-msgid "Аскор - Головна, контакти, товари, послуги, ціни"
-msgstr "Аскор - Главная, контакты, товары, услуги, цены"
+msgid "Аскор - Головна, контакти, продукція, товари, послуги, ціни"
+msgstr "Аскор - Главная, контакты, продукция, товары, услуги, цены"
 
 #: .\templates\base.html:9
+
 msgid ""
-"Інформація про підприємство, аскор, askor, опис підприємства, телефон, "
-"адреса, запропоновані товари та послуги, ООО Підприємство Аскор, "
-"транспортери на базі виделкових ланцюгів, ланцюги оцинковані круглозвенні, "
-"ланцюги виделкові, конвеєри із зануреними скріпками"
+"Інформація про компанію, аскор, askor, продукція компанії аскор, телефон, "
+"запропоновані товари та послуги, ООО Компанія Аскор, транспортери на базі "
+"виделкових ланцюгів, ланцюги оцинковані круглозвенні, ланцюги вилчаті, "
+"конвеєри із зануреними скріпками"
 msgstr ""
-"Информация о компании, аскор, askor, описание компании, транспортеры на базе вильчатых цепей, цепи вильчатые, цепи круглозвенные оцинкованные, конвейеры с погруженными скребками (КПС),  телефон, адрес, форма собствености, предлагаемые "
-"товары и услуги, ТОВ Компания Аскор"
+"Информация о компании, Аскор, askor, продукция компании Аскор, телефон, "
+"предлагаемые товары и услуги, ООО Компания Аскор, транспортеры на базе "
+"вильчатых цепей, цепи оцинкованные роликовые, цепи вильчатые, конвейеры с "
+"погруженными скрепками"
 
 #: .\templates\base.html:10
 msgid ""
-"Компанія Аскор - Головна сторінка, контактна інформація, товари та послуги "
-"підприємства ООО Підприємство Аскор, широкий вибір якісних транспортерів на "
-"базі виделкових ланцюгів, ланцюгів оцинкованих круглозвенних, ланцюгів "
-"виделкових, конвеєрів із зануреними скріпками за найкращою ціною. Гарантія "
-"якості"
+"Компанія Аскор - Головна сторінка, контактна інформація, товари, продукція "
+"та послуги підприємства ООО Підприємство Аскор, широкий вибір якісних "
+"транспортерів на базі виделкових ланцюгів, ланцюгів оцинкованих "
+"круглозвенних, ланцюгів виделкових, конвеєрів із зануреними скріпками за "
+"найкращою ціною. Гарантія якості"
 msgstr ""
+"Компания Аскор - Главная страница, контактная информация, товары, продукция "
+"и услуги компании ООО Компания Аскор, широкий выбор качественных "
+"транспортеров на базе вильчатых цепей, цепей оцинкованных круглозвенных, "
+"цепей вильчатых, конвейеров с погруженными скрепками по лучшей цене. "
+"Гарантия качества "
 
 #: .\templates\footer.html:11
-msgid "ООО \"Підприємство Аскор\" 2012-2019"
+msgid "ООО \"Компанія Аскор\" 2012-2019"
 msgstr "ТОВ \"Компания Аскор\" 2012-2019"
 
 #: .\templates\landing\contacts.html:4
-msgid ""
-"Адреса, телефон, пошта, сайт підприємства — «ООО \"Підприємство Аскор\"»"
+msgid "Адреса, телефон, пошта, сайт компанії — «ООО \"Компанія Аскор\"»"
 msgstr "Адрес, телефон, почта, сайт компании — «ТОВ \"Компания Аскор\"»"
 
 #: .\templates\landing\contacts.html:5
-#, fuzzy
-#| msgid ""
-#| "Адреса, телефон, пошта, факс підприємства — «ООО \"Підприємство Аскор\"»"
 msgid ""
 "адреса, телефон, сайт, пошта, компанія askor, компанія аскор, аскор, ООО "
-"\"Підприємство Аскор\""
-msgstr "Адрес, телефон, сайт, почта, компания аскор, askor, компании — «ТОВ \"Компания Аскор\"»"
+"\"Компанія Аскор\""
+msgstr ""
+"Адрес, телефон, сайт, почта, компания аскор, askor, компании — «ТОВ "
+"\"Компания Аскор\"»"
 
 #: .\templates\landing\contacts.html:6
-msgid ""
-"Контактна інформація та адреса підприємства «ООО \"Підприємство Аскор\"»."
+msgid "Контактна інформація та адреса компанії «ООО \"Компанія Аскор\"»."
 msgstr "Контактная информация и адрес компании «ТОВ \"Компания Аскор\"»"
 
 #: .\templates\landing\contacts.html:17
@@ -110,38 +115,26 @@ msgstr "АДРЕС"
 msgid "Україна, Київ, вул. Глібова 7"
 msgstr "Украина, Киев, ул. Глебова 7"
 
-#: .\templates\landing\index.html:51
-msgid "КОНВЕЄРИ ІЗ ЗАНУРЕННИМИ СКРІПКАМИ"
-msgstr "КОНВЕЙЕРЫ С ПОГРУЖЕННЫМИ СКРЕБКАМИ (КПС)"
-
-#: .\templates\landing\index.html:70
-msgid "ЛАНЦЮГИ ВИДЕЛКОВІ"
-msgstr "Цепи вильчатые"
-
-#: .\templates\landing\index.html:90
-msgid "ЛАНЦЮГИ ОЦИНКОВАНІ КРУГЛОЗВЕННІ"
-msgstr "Цепи круглозвенные оцинкованные"
-
-#: .\templates\landing\index.html:109
-msgid "ТРАНСПОРТЕРИ НА БАЗІ ВИДЕЛКОВИХ ЛАНЦЮГІВ"
-msgstr "Транспортеры на базе вильчатых цепей"
+#: .\templates\landing\index.html:44
+msgid "Продукція"
+msgstr "Продукция"
 
 #: .\templates\landing\info.html:5
-msgid "Про компанію | Інформація про підприємство «ООО \"Підприємство Аскор\"»"
+msgid "Про компанію | Інформація про компанію «ООО \"Компанія Аскор\"»"
 msgstr "О компании | Информация о компании «ТОВ \"Компания Аскор\"»"
 
 #: .\templates\landing\info.html:6
-msgid "Інформація про підприємство «ООО \"Підприємство Аскор\"»"
-msgstr "Информация о компании ТОВ Компании Аскор"
+msgid "Інформація про компанію «ООО \"Компанія Аскор\"»"
+msgstr "Информация о компании «ТОВ \"Компания Аскор\"»"
 
 #: .\templates\landing\info.html:7
 msgid ""
-"інформація про підприємство, компанія аскор, аскор, компанія askor, телефон, "
-"адреса, форма власності, запропоновані товари и услуги,  ООО \"Підприємство "
-"Аскор\""
+"інформація про компанію, компанія аскор, аскор, компанія askor, телефон, "
+"адреса, форма власності, запропоновані товари и услуги,  ООО \"Компанія Аскор"
+"\""
 msgstr ""
-"информация о компании, компания аскор, аскор, askor? телефон, адрес, форма собствености, предлагаемые "
-"товары и услуги, ТОВ Компания Аскор"
+"информация о компании, компания аскор, аскор, askor, телефон, адрес, форма "
+"собствености, предлагаемые товары и услуги, ТОВ Компания Аскор"
 
 #: .\templates\landing\info.html:15
 msgid "Про нас"
@@ -191,46 +184,42 @@ msgstr ""
 "Высококачественная оцинковка дает возможность использования цепей в открытых "
 "условиях, а также в воде.</p>"
 
-#: .\templates\landing\product-item.html:8
+#: .\templates\landing\product-item.html:10
 msgid "Деталі"
 msgstr "Подробнее"
 
-#: .\templates\landing\product-item.html:13 .\templates\landing\product.html:79
+#: .\templates\landing\product-item.html:15
 msgid "від"
 msgstr "от"
 
-#: .\templates\landing\product.html:7 .\templates\landing\product.html:8
+#: .\templates\landing\product.html:6 .\templates\landing\product.html:7
 msgid ""
 "Детальна інформація про товар/послугу та постачальника. Ціна та умови "
 "поставки"
 msgstr ""
 "Детальная информация о товаре/услуге и поставщика. Цена и условия поставки"
 
-#: .\templates\navbar.html:18
+#: .\templates\landing\product_catalog.html:7
+msgid "продукція та товари «ООО \"Компанія Аскор\"»"
+msgstr "продукция и товары ТОВ Компании Аскор"
+
+#: .\templates\landing\product_catalog.html:8
+msgid "Товари по категорії з фото та ціною «ООО \"Компанії Аскор\"»"
+msgstr "Товары по категории с фото и ценой  «ТОВ Компании Аскор»"
+
+#: .\templates\landing\product_catalog.html:9
+msgid "Товари по категорії, продукція, фото, ціна «ООО \"Компанії Аскор\"»"
+msgstr "Товары по категории, продукция, фото, цена «ТОВ \"Компания Аскор\"»"
+
+#: .\templates\navbar.html:14
 msgid "Товари та послуги"
 msgstr "Товары и услуги"
 
-#: .\templates\navbar.html:21
-msgid "Конвеєри із зануренням скребки"
-msgstr "Конвейеры с погруженными скребками (КПС"
-
-#: .\templates\navbar.html:23
-msgid "Ланцюги вильчаті"
-msgstr "Цепи вильчатые"
-
-#: .\templates\navbar.html:24
-msgid "Ланцюги оцинковані круглозвенні"
-msgstr "Цепи круглозвенные оцинкованные"
-
 #: .\templates\navbar.html:25
-msgid "Транспортери на базі вільчатих ланцюгів"
-msgstr "Транспортеры на базе вильчатых цепей"
-
-#: .\templates\navbar.html:29
 msgid "Про компанію"
 msgstr "О компании"
 
-#: .\templates\navbar.html:32
+#: .\templates\navbar.html:28
 msgid "Контакти"
 msgstr "Контакты"
 
@@ -316,11 +305,13 @@ msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:342
+#: .\venv\Lib\site-packages\djmoney\models\validators.py:52
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:351
+#: .\venv\Lib\site-packages\djmoney\models\validators.py:44
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
 msgstr ""
@@ -1409,9 +1400,499 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:53
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:62
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:34
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:341
+msgid "state"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:71
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:350
+msgid "ETA"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:78
+msgid "when"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:87
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:211
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:345
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\django\models.py:12
+#: .\venv\Lib\site-packages\kombu\transport\django\models.py:12
+msgid "name"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:121
+msgid "Task detail"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:122
+msgid "Tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:137
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:343
+msgid "UUID"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:161
+msgid "Revoke selected tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:167
+msgid "Terminate selected tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:173
+msgid "Kill selected tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:180
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\templates\djcelery\confirm_rate_limit.html:9
+msgid "Rate limit selected tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:193
+msgid "Rate limit selection"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:215
+msgid "Node detail"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:216
+msgid "Worker Nodes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:223
+msgid "Shutdown selected worker nodes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:227
+msgid "Enable event mode for selected nodes."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:232
+msgid "Disable event mode for selected nodes."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:285
+msgid "Task (registered)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:287
+msgid "Task (custom)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:300
+msgid "Need name of task"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:311
+#, python-format
+msgid "Unable to parse JSON: %s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:361
+msgid "Enable selected periodic tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\admin.py:366
+msgid "Disable selected periodic tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:10
+#, python-brace-format
+msgid "{num} year ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:10
+#, python-brace-format
+msgid "{num} years ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:14
+#, python-brace-format
+msgid "{num} month ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:14
+#, python-brace-format
+msgid "{num} months ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:18
+#, python-brace-format
+msgid "{num} week ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:18
+#, python-brace-format
+msgid "{num} weeks ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:22
+#, python-brace-format
+msgid "{num} day ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:22
+#, python-brace-format
+msgid "{num} days ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:56
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:71
+msgid "just now"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:62
+#, python-brace-format
+msgid "{minutes} minute ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:63
+#, python-brace-format
+msgid "{minutes} minutes ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:68
+#, python-brace-format
+msgid "{seconds} second ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:69
+#, python-brace-format
+msgid "{seconds} seconds ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:74
+#, python-brace-format
+msgid "{hours} hour ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:74
+#, python-brace-format
+msgid "{hours} hours ago"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\humanize.py:78
+#, python-brace-format
+msgid "yesterday at {time}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:32
+msgid "task id"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:38
+msgid "done at"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:39
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:353
+msgid "traceback"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:50
+msgid "task state"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:51
+msgid "task states"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:69
+msgid "group id"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:71
+msgid "created at"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:78
+msgid "saved group result"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:79
+msgid "saved group results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:91
+msgid "Days"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:92
+msgid "Hours"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:93
+msgid "Minutes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:94
+msgid "Seconds"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:95
+msgid "Microseconds"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:100
+msgid "every"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:102
+msgid "period"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:106
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:217
+msgid "interval"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:107
+msgid "intervals"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:127
+#, python-brace-format
+msgid "every {0.period_singular}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:128
+#, python-brace-format
+msgid "every {0.every:d} {0.period}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:137
+msgid "minute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:138
+msgid "hour"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:140
+msgid "day of week"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:143
+msgid "day of month"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:146
+msgid "month of year"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:150
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:221
+msgid "crontab"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:151
+msgid "crontabs"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:212
+msgid "Useful description"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:214
+msgid "task name"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:223
+msgid "Use one of interval/crontab"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:226
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:348
+msgid "Arguments"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:227
+msgid "JSON encoded positional arguments"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:230
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:349
+msgid "Keyword arguments"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:231
+msgid "JSON encoded keyword arguments"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:234
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\django\models.py:20
+#: .\venv\Lib\site-packages\kombu\transport\django\models.py:20
+msgid "queue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:235
+msgid "Queue defined in CELERY_QUEUES"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:238
+msgid "exchange"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:241
+msgid "routing key"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:244
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:351
+msgid "expires"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:247
+msgid "enabled"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:257
+msgid "description"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:263
+msgid "periodic task"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:264
+msgid "periodic tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:307
+msgid "hostname"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:308
+msgid "last heartbeat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:315
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:360
+msgid "worker"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:316
+msgid "workers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:347
+msgid "event received at"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:352
+msgid "result"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:355
+msgid "execution time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:356
+msgid "in seconds if task succeeded"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:358
+msgid "number of retries"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:369
+msgid "task"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\models.py:370
+msgid "tasks"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\templates\admin\djcelery\change_list.html:6
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\templates\djcelery\confirm_rate_limit.html:6
+msgid "Home"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_celery-3.3.0-py3.6.egg\djcelery\templates\djcelery\confirm_rate_limit.html:22
+msgid "Rate limit"
+msgstr ""
+
+#: .\venv\Lib\site-packages\jsonfield\fields.py:34
+#: .\venv\Lib\site-packages\jsonfield\fields.py:46
+#: .\venv\Lib\site-packages\jsonfield\fields.py:85
+msgid "Enter valid JSON"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\django\models.py:21
+#: .\venv\Lib\site-packages\kombu\transport\django\models.py:21
+msgid "queues"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\django\models.py:28
+#: .\venv\Lib\site-packages\kombu\transport\django\models.py:28
+msgid "payload"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\django\models.py:37
+#: .\venv\Lib\site-packages\kombu\transport\django\models.py:37
+msgid "message"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\django\models.py:38
+#: .\venv\Lib\site-packages\kombu\transport\django\models.py:38
+msgid "messages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\qpid.py:1295
+#: .\venv\Lib\site-packages\kombu\transport\qpid.py:1295
+#, python-format
+msgid "Attempting to connect to qpid with SASL mechanism %s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\qpid.py:1300
+#: .\venv\Lib\site-packages\kombu\transport\qpid.py:1300
+#, python-format
+msgid "Connected to qpid with SASL mechanism %s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\kombu-3.0.37-py3.6.egg\kombu\transport\qpid.py:1318
+#: .\venv\Lib\site-packages\kombu\transport\qpid.py:1318
+#, python-format
+msgid "Unable to connect to qpid with SASL mechanism %s"
+msgstr ""
+
 #: .\venv\Lib\site-packages\modeltranslation\widgets.py:25
 msgid "None"
 msgstr ""
+
+#~ msgid "Інформація про підприємство «ООО \"Компанія Аскор\"»"
+#~ msgstr "Информация о компании ТОВ Компании Аскор"
+
+#~ msgid "КОНВЕЄРИ ІЗ ЗАНУРЕННИМИ СКРІПКАМИ"
+#~ msgstr "КОНВЕЙЕРЫ С ПОГРУЖЕННЫМИ СКРЕБКАМИ (КПС)"
+
+#~ msgid "ЛАНЦЮГИ ВИДЕЛКОВІ"
+#~ msgstr "Цепи вильчатые"
+
+#~ msgid "ЛАНЦЮГИ ОЦИНКОВАНІ КРУГЛОЗВЕННІ"
+#~ msgstr "Цепи круглозвенные оцинкованные"
+
+#~ msgid "ТРАНСПОРТЕРИ НА БАЗІ ВИДЕЛКОВИХ ЛАНЦЮГІВ"
+#~ msgstr "Транспортеры на базе вильчатых цепей"
+
+#~ msgid "Конвеєри із зануренням скребки"
+#~ msgstr "Конвейеры с погруженными скребками (КПС"
+
+#~ msgid "Ланцюги вильчаті"
+#~ msgstr "Цепи вильчатые"
+
+#~ msgid "Ланцюги оцинковані круглозвенні"
+#~ msgstr "Цепи круглозвенные оцинкованные"
+
+#~ msgid "Транспортери на базі вільчатих ланцюгів"
+#~ msgstr "Транспортеры на базе вильчатых цепей"
 
 #~ msgid ""
 #~ "Контактна інформація, товари та послуги підприємства ООО Підприємство "
