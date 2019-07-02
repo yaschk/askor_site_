@@ -2,6 +2,7 @@
 {% load currency %}
 {%  currency_context  %}
 <div class="border">
+<a href="/">
   <div class="wrap">
         <div class="product-wrap">
           <a><img itemprop="image" alt="{{ product_image.product.product_name }}" src={{ product_image.image.url }}></a>
@@ -26,5 +27,6 @@
                 </div>
         {% endif %}
 {#   </div>#}
+</a>
 </div>
 
