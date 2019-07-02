@@ -3,7 +3,7 @@ from django.db import models
 
 class ProductCategory(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
-    image = models.ImageField(upload_to='static/media/categories_images/', default=None, blank=True, null=True)
+    image = models.ImageField(upload_to='categories_images/', default=None, blank=True, null=True)
     is_active = models.BooleanField(default=True)
 
     def __str__(self):
@@ -40,7 +40,7 @@ class Product(models.Model):
 
 class ProductImage(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, blank=True, null=True, default=None)
-    image = models.ImageField(upload_to='static/media/products_images/')
+    image = models.ImageField(upload_to='products_images/')
     is_active = models.BooleanField(default=True)
     is_main = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
