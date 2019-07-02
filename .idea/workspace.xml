@@ -184,7 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.section-nam</find>
       <find>carousel</find>
       <find>border</find>
       <find>product-wrap</find>
@@ -214,6 +213,7 @@
       <find>.border</find>
       <find>font-fam</find>
       <find>.head</find>
+      <find>section-new</find>
     </findStrings>
     <replaceStrings>
       <replace>cat-link</replace>
