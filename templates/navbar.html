@@ -1,28 +1,24 @@
 {% load static %}
 {% load i18n %}
-<nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark head-room" id="general-nav">
-
+<nav class="navbar navbar-expand-lg fixed-top  navbar-dark navbar-custom head-room" id="general-nav">
      <a class="navbar-brand" href="/">
-          <img itemprop="logo" class="no-copy" id="logo" src="{% static 'img/logo-footer.png' %}" alt="Askor-Logo">
+          <img itemprop="logo" class="no-copy" id="logo" src="{% static 'img/logo-navbar.png' %}" alt="Askor-Logo">
      </a>
-
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown" id="menu-item">
             <a class="nav-link dropdown-toggle no-copy" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {% trans 'Товари та послуги' %}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item no-copy external" href="/#section-1">{% trans 'Конвеєри із зануренням скребки' %}</a>
-                <div class="dropdown-divider external"></div>
-              <a class="dropdown-item no-copy external" href="/#section-2">{% trans 'Ланцюги вильчаті' %}</a><div class="dropdown-divider"></div>
-              <a class="dropdown-item no-copy external" href="/#section-3">{% trans 'Ланцюги оцинковані круглозвенні' %}</a><div class="dropdown-divider"></div>
-              <a class="dropdown-item no-copy external"  href="/#section-4">{% trans 'Транспортери на базі вільчатих ланцюгів'%}</a>
+                {% for cat in product_categories %}
+                    {% if cat.name in arr %}
+                    <a class="dropdown-item no-copy external" href="{% url 'product_catalog' cat.id %}">{{ cat.name }}</a>{% if cat.name != last_category %}<div class="dropdown-divider"></div>{% endif %}
+                    {% endif %}
+                {% endfor %}
             </div>
       </li>
       <li class="nav-item" id="menu-item">
@@ -32,7 +28,6 @@
             <a class="nav-link active no-copy external" href="/contacts">{% trans 'Контакти' %}</a>
       </li>
     </ul>
-
     <ul class="navbar-nav mr-auto">
         <li class="nav-link  external" style="color: white; "><i class="fa fa-mobile-alt" aria-hidden="true"></i><span>&nbsp <span>+3809<img>6578<img>9693</span></span></li>
     </ul>

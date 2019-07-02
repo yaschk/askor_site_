@@ -1,127 +1,60 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-{#{% load cache %}#}
 {% block meta %}<meta name="google-site-verification" content="xKzBBF8m6I_CBRkixr_-zKFOyc90lidKF3vdG1xNjoA" />{% endblock %}
 {% block content %}
-
 <div class="cor-wrap">
     <div class="cor-raw">
- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-              <div class="carusel-img">
-                  <img class="d-block w-100 no-copy" src="{% static 'img/slide-1.jpg' %}" alt="First slide chains Askor">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                      <div class="carusel-img">
+                          <img class="d-block w-100 no-copy" src="{% static 'img/slide-2.png' %}" alt="First slide chains Askor">
+                      </div>
+                </div>
+                  <div class="carousel-item">
+                     <div class="carusel-img">
+                          <img class="d-block w-100 no-copy" src="{% static 'img/slide-1.png' %}" alt="Second slide chains Askor">
+                      </div>
+                  </div>
               </div>
-        </div>
-          <div class="carousel-item">
-             <div class="carusel-img">
-                  <img class="d-block w-100 no-copy" src="{% static 'img/slide-2.png' %}" alt="Second slide chains Askor">
-              </div>
-        </div>
-      </div>
 
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-</div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
     </div>
 </div>
-{#{% cache 5000 catalog%}#}
-
-
-<div class="anchor" id="section-1"></div>
 
 <div class="catalog">
-<div class="section section1 first-container">
+<div class="section-new">
     <div class="container">
         <div class="row">
+        {% if len_products_images > 0 %}
             <div class="col-lg-12">
-                <br> <br>
-                    <h2 class="text-center section-name no-copy" >
-                        {% trans 'КОНВЕЄРИ ІЗ ЗАНУРЕННИМИ СКРІПКАМИ'%}
-                    </h2>
-                <br>
+                <div class="land-prod-header no-copy">{% trans 'Продукція' %}</div>
             </div>
-                {% for product_image in products_images_1 %}
-                {% include 'landing/product-item.html' %}
-                {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="anchor" id="section-2"></div>
-
-<div class="section section2 second-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <br> <br>
-                <h2 class="text-center section-name no-copy">
-                    {% trans 'ЛАНЦЮГИ ВИДЕЛКОВІ'%}
-                </h2>
-                <br>
-            </div>
-                {% for product_image in products_images_2 %}
-                {% include 'landing/product-item.html' %}
-                {% endfor %}
-        </div>
-    </div>
-</div>
-
-
-<div class="anchor" id="section-3"></div>
-
-<div class="section section3 third-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <br> <br>
-                <h2 class="text-center section-name no-copy">
-                    {% trans 'ЛАНЦЮГИ ОЦИНКОВАНІ КРУГЛОЗВЕННІ' %}
-                </h2>
-                <br>
-            </div>
-                {% for product_image in products_images_3 %}
-                {% include 'landing/product-item.html' %}
-                {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="anchor" id="section-4"></div>
-
-<div class="section section4 fourth-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <br> <br>
-                <h2 class="text-center section-name no-copy">
-                    {% trans 'ТРАНСПОРТЕРИ НА БАЗІ ВИДЕЛКОВИХ ЛАНЦЮГІВ'%}
-                </h2>
-                <br>
-            </div>
-                {% for product_image in products_images_4 %}
-                {% include 'landing/product-item.html' %}
-                {% endfor %}
+            {% for product_category in product_categories %}
+                {% include 'landing/category-item.html' %}
+            {% endfor %}
+        {% endif %}
         </div>
     </div>
 </div>
 </div>
+
+{% include 'footer.html' %}
 
 <div class='scrolltop'>
     <div class='scroll icon scroll-button'><i class="fa fa-4x fa-angle-up"></i></div>
 </div>
-
-{#{% endcache %}#}
-{% include 'footer.html' %}
 {% endblock %}

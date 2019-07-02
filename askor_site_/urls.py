@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 from askor import views
 from django.conf.urls import url
 from django.conf.urls.i18n import i18n_patterns
-
+from django.urls import path, re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -35,5 +35,6 @@ urlpatterns += i18n_patterns(
     url(r'^$', views.index, name='index'),
     url(r'^info/', views.info, name='info'),
     url(r'^contacts/', views.contacs, name='contacts'),
-    url(r'^(?P<product_id>\w+)/$', views.product, name='product'),
+    url(r'^category(?P<product_category>[0-9])/$', views.product_catalog, name='product_catalog'),
+    url(r'^category(?P<product_category>[0-9])/product(?P<product_id>\w+)/$', views.product, name='product'),
 )

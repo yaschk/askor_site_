@@ -6,4 +6,6 @@ from .models import *
 class ProductTranslationOptions(TranslationOptions):
     fields = ('product_name', 'in_stock', 'description', 'keywords',)
 
-
+@register(ProductCategory)
+class ProductCategoryTranslationOptions(TranslationOptions):
+    fields = ('name',)

@@ -2,12 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b451396-b128-4604-9d7c-8ff1543d17ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static_dev/img/logo-navbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_dev/img/more-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_dev/img/slide-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/landing/category-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/landing/product_catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/askor/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/askor/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/askor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/askor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/askor/translation.py" beforeDir="false" afterPath="$PROJECT_DIR$/askor/translation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/askor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/askor/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/askor_site_/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/askor_site_/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-100_photo7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-320-photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo1_WET8gf2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo5_f0J3iAI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-410-160_photo6_boc2GhM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo1_W8NPtwX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo2_7vdGwwR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo3_vhI1NZS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-500-photo3_yllVTvy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-600-142_photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-600-142_photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-600-142_photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-600-142_sheme1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/KPS-600-142_sheme2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/Krab-240-160_photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/Krab-240-160_photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/Krab-240-160_photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/Krab-240-160_photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-142_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-142_sheme1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-142_sheme2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-142_sheme3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-160_sheme1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-160_sheme2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/P1-160_sheme3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/QF7_fKjKaFw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/sheme-KPS-200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/sheme-KPS-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/sheme-KPS-500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/static/media/products_images/sheme-KPS-500_1ml2ITH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/slide-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/slide-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_dev/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_dev/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_dev/img/logo-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_dev/img/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_dev/img/slide-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/product-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/product-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/currencies/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/currencies/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/contenttypes/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/flatpages/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/redirects/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sessions/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sites/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/sites/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/mptt/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mptt/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +124,7 @@
     <session id="1474704765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -50,65 +135,76 @@
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.9" value="2" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="INSTALLER" value="1" />
-          <entry key="css" value="24" />
-          <entry key="html" value="131" />
-          <entry key="jpg" value="1" />
-          <entry key="js" value="3" />
-          <entry key="po" value="9" />
-          <entry key="py" value="92" />
+          <entry key="css" value="29" />
+          <entry key="html" value="175" />
+          <entry key="ico" value="2" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="7" />
+          <entry key="png" value="9" />
+          <entry key="po" value="10" />
+          <entry key="pstat" value="1" />
+          <entry key="py" value="108" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="24" />
-          <entry key="HTML" value="131" />
-          <entry key="Image" value="1" />
-          <entry key="JavaScript" value="3" />
-          <entry key="Locale" value="9" />
+          <entry key="CSS" value="29" />
+          <entry key="HTML" value="175" />
+          <entry key="Image" value="16" />
+          <entry key="JavaScript" value="7" />
+          <entry key="Locale" value="10" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="92" />
+          <entry key="Profiler Session" value="1" />
+          <entry key="Python" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="825" />
+          <entry key="css" value="1764" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="4364" />
-          <entry key="js" value="160" />
-          <entry key="po" value="1118" />
-          <entry key="py" value="1594" />
+          <entry key="html" value="5970" />
+          <entry key="js" value="204" />
+          <entry key="po" value="1314" />
+          <entry key="py" value="2479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="825" />
-          <entry key="HTML" value="4364" />
-          <entry key="JavaScript" value="160" />
-          <entry key="Locale" value="1118" />
+          <entry key="CSS" value="1764" />
+          <entry key="HTML" value="5970" />
+          <entry key="JavaScript" value="204" />
+          <entry key="Locale" value="1314" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1594" />
+          <entry key="Python" value="2479" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/askor/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/askor_site_/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -120,53 +216,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/askor_site_/__init__.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/askor/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="10" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/askor/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/askor_site_/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-              <folding>
-                <element signature="e#635#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/askor/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+            <state relative-caret-position="85">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -176,44 +230,48 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>init</find>
-      <find>.anchor</find>
-      <find>text-ce</find>
-      <find>.navbar</find>
-      <find>.product-title</find>
-      <find>.sectio</find>
-      <find>.product-in</find>
-      <find>.product-tit</find>
-      <find>.se</find>
-      <find>.scroll</find>
-      <find>.price</find>
-      <find>.sto</find>
-      <find>.card-body</find>
-      <find>.card</find>
-      <find>.cont</find>
-      <find>.container-prod-details</find>
-      <find>font-famil</find>
-      <find>white</find>
-      <find>font-fam</find>
-      <find>mono</find>
-      <find>product-ti</find>
-      <find>option</find>
-      <find>sect</find>
-      <find>prod-de</find>
-      <find>prod-st</find>
-      <find>title</find>
-      <find>medium</find>
-      <find>Roboto Mono</find>
       <find>.section-nam</find>
+      <find>carousel</find>
+      <find>border</find>
+      <find>product-wrap</find>
+      <find>.product-wrap</find>
+      <find>margin-right:</find>
+      <find>margin-right</find>
+      <find>auto</find>
+      <find>.loo</find>
+      <find>bac</find>
+      <find>demoizo</find>
+      <find>.carusel-border</find>
+      <find>.conta</find>
+      <find>.wrapper</find>
+      <find>opi</find>
+      <find>new</find>
       <find>select</find>
+      <find>.category</find>
+      <find>.container-prod-details</find>
+      <find>more</find>
+      <find>etalage_thumb</find>
+      <find>300</find>
+      <find>etalage</find>
+      <find>width</find>
+      <find>etalage_thumb_image</find>
+      <find>thumb_image_width</find>
+      <find>.gallery</find>
+      <find>.border</find>
+      <find>font-fam</find>
+      <find>.head</find>
     </findStrings>
+    <replaceStrings>
+      <replace>cat-link</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,29 +284,36 @@
         <option value="$PROJECT_DIR$/static/js/jquery.exzoom.js" />
         <option value="$PROJECT_DIR$/Robots.txt" />
         <option value="$PROJECT_DIR$/askor/urls.py" />
-        <option value="$PROJECT_DIR$/askor/translation.py" />
         <option value="$PROJECT_DIR$/templates/500.html" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/templates/footer.html" />
-        <option value="$PROJECT_DIR$/templates/landing/info.html" />
-        <option value="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/landing/contacts.html" />
-        <option value="$PROJECT_DIR$/templates/landing/index.html" />
         <option value="$PROJECT_DIR$/askor/apps.py" />
         <option value="$PROJECT_DIR$/askor/task.py" />
-        <option value="$PROJECT_DIR$/templates/landing/product-item.html" />
-        <option value="$PROJECT_DIR$/templates/landing/product.html" />
-        <option value="$PROJECT_DIR$/templates/navbar.html" />
         <option value="$PROJECT_DIR$/askor/tests.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/askor/tasks.py" />
         <option value="$PROJECT_DIR$/askor_site_/celery.py" />
-        <option value="$PROJECT_DIR$/askor/admin.py" />
-        <option value="$PROJECT_DIR$/static_dev/css/style.css" />
-        <option value="$PROJECT_DIR$/askor/models.py" />
+        <option value="$PROJECT_DIR$/templates/landing/product-catalog.html" />
         <option value="$PROJECT_DIR$/askor_site_/urls.py" />
+        <option value="$PROJECT_DIR$/askor/models.py" />
+        <option value="$PROJECT_DIR$/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/askor/admin.py" />
+        <option value="$PROJECT_DIR$/askor/translation.py" />
+        <option value="$PROJECT_DIR$/static_dev/js/jquery.etalage.min.js" />
+        <option value="$PROJECT_DIR$/static_dev/js/s.js" />
+        <option value="$PROJECT_DIR$/static_dev/css/etalage.css" />
+        <option value="$PROJECT_DIR$/static_dev/js/etalage.js" />
+        <option value="$PROJECT_DIR$/templates/landing/product-item.html" />
         <option value="$PROJECT_DIR$/askor/views.py" />
+        <option value="$PROJECT_DIR$/templates/landing/product.html" />
+        <option value="$PROJECT_DIR$/static_dev/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/landing/index.html" />
+        <option value="$PROJECT_DIR$/templates/landing/category-item.html" />
+        <option value="$PROJECT_DIR$/templates/footer.html" />
+        <option value="$PROJECT_DIR$/templates/landing/contacts.html" />
+        <option value="$PROJECT_DIR$/templates/landing/info.html" />
+        <option value="$PROJECT_DIR$/templates/landing/product_catalog.html" />
+        <option value="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/askor_site_/__init__.py" />
         <option value="$PROJECT_DIR$/askor_site_/settings.py" />
       </list>
@@ -260,9 +325,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="615" />
-    <option name="y" value="140" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="845" />
+    <option name="y" value="-15" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -272,7 +337,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +357,50 @@
             <path>
               <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
               <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="categories_images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
               <item name="static_dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,28 +412,41 @@
             <path>
               <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
               <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="static_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="askor_site_" type="b2602c69:ProjectViewProjectNode" />
+              <item name="askor_site_" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MySite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tok29\PycharmProjects\askor_site_\static_dev\img" />
+      <recent name="C:\Users\tok29\PycharmProjects\askor_site_\static_dev\js" />
       <recent name="C:\Users\tok29\PycharmProjects\askor_site_\static_dev\css" />
       <recent name="C:\Users\tok29\PycharmProjects\askor_site_\static\css" />
       <recent name="C:\Users\tok29\PycharmProjects\askor_site_\static_dev" />
-      <recent name="C:\Users\tok29\PycharmProjects\askor_site_" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tok29\PycharmProjects\askor_site_\static_dev" />
@@ -426,15 +547,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30536914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49127516" visible="true" weight="0.33049646" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48926175" weight="0.32056737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,37 +563,41 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5087248" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48389262" weight="0.32056737" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5174497" side_tool="true" weight="0.32056737" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48255032" visible="true" weight="0.32056737" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28926176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30536914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49127516" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48926175" visible="true" weight="0.32056737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5087248" side_tool="true" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48389262" weight="0.32340425" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5174497" side_tool="true" weight="0.32056737" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48255032" weight="0.32056737" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,35 +607,176 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static_dev/js/jquery.exzoom.js" />
-    <entry file="file://$PROJECT_DIR$/static_dev/css/style-contact-page.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html" />
-    <entry file="file://$PROJECT_DIR$/static/css/style-contact-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/jquery.exzoom.css" />
     <entry file="file://$PROJECT_DIR$/static/js/jquery.exzoom.js" />
     <entry file="file://$PROJECT_DIR$/static_dev/img/background.jpg" />
     <entry file="file://$PROJECT_DIR$/Robots.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.html">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        <state relative-caret-position="122">
+          <caret line="716" column="36" selection-start-line="716" selection-start-column="32" selection-end-line="716" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/500.html">
+    <entry file="file://$PROJECT_DIR$/askor/urls.py" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django_currencies-0.9.0.dist-info/INSTALLER">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/color.py" />
+    <entry file="file://$PROJECT_DIR$/askor_site_/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/logo-footer.png" />
+    <entry file="file://$PROJECT_DIR$/askor/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/js/s.js" />
+    <entry file="file://$PROJECT_DIR$/static_dev/js/jquery.etalage.min.js" />
+    <entry file="file://$PROJECT_DIR$/static_dev/js/etalage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/css/etalage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor_site_/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1562063563627" expanded="true" signature="63:65" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="677" column="36" selection-start-line="677" selection-start-column="36" selection-end-line="677" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/loop-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/logo-navbar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/more-info.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/slide-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/slide-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/test.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/test1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/ttt.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/page-icon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/metal-texture.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_dev/img/down.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/category-item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/product-item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="112" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
         </state>
       </provider>
     </entry>
@@ -521,167 +787,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="716" column="36" selection-start-line="716" selection-start-column="32" selection-end-line="716" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="130" selection-start-line="40" selection-start-column="130" selection-end-line="40" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor/urls.py" />
-    <entry file="file://$PROJECT_DIR$/askor/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django_currencies-0.9.0.dist-info/INSTALLER">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/product-item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/product.html">
+    <entry file="file://$PROJECT_DIR$/templates/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/askor/apps.py">
+    <entry file="file://$PROJECT_DIR$/templates/landing/product_catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="249" column="45" selection-start-line="249" selection-start-column="45" selection-end-line="249" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/askor/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor/tests.py">
+    <entry file="file://$PROJECT_DIR$/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+        <state relative-caret-position="153">
+          <caret line="9" column="385" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="385" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/color.py">
+    <entry file="file://$PROJECT_DIR$/templates/landing/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_dev/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="653" column="23" selection-start-line="653" selection-start-column="23" selection-end-line="653" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor_site_/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor_site_/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askor/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/askor_site_/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -700,6 +863,13 @@
           <folding>
             <element signature="e#312#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askor/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
