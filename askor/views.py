@@ -10,7 +10,10 @@ def index(request):
     for i in all_products:
         if i.category.name not in arr:
             arr.append(i.category.name)
-    last_category = arr[-1]
+    try:
+        last_category = arr[-1]
+    except:
+        last_category = 0
     return render(request, 'landing/index.html', locals())
 
 
@@ -26,7 +29,10 @@ def product(request,  product_category, product_id):
     for i in all_products:
         if i.category.name not in arr:
             arr.append(i.category.name)
-    last_category = arr[-1]
+    try:
+        last_category = arr[-1]
+    except:
+        last_category = 0
     return render(request, 'landing/product.html', locals())
 
 
@@ -51,7 +57,10 @@ def contacs (request):
     for i in all_products:
         if i.category.name not in arr:
             arr.append(i.category.name)
-    last_category = arr[-1]
+    try:
+        last_category = arr[-1]
+    except:
+        last_category = 0
     return render(request, 'landing/contacts.html', locals())
 
 
@@ -65,5 +74,8 @@ def product_catalog(request, product_category):
     for i in all_products:
         if i.category.name not in arr:
             arr.append(i.category.name)
-    last_category = arr[-1]
+    try:
+        last_category = arr[-1]
+    except:
+        last_category = 0
     return render(request, 'landing/product_catalog.html', locals())
