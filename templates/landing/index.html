@@ -13,12 +13,12 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                       <div class="carusel-img">
-                          <img class="d-block w-100 no-copy" src="{% static 'img/slide-test-1.png' %}" alt="Askor chain first slide preview">
+                          <img class="d-block w-100 no-copy" src="{% static 'img/slide-1.png' %}" alt="Askor chain first slide preview">
                       </div>
                 </div>
                   <div class="carousel-item">
                      <div class="carusel-img">
-                          <img class="d-block w-100 no-copy" src="{% static 'img/slide-test.png' %}" alt="Askor chain second slide preview">
+                          <img class="d-block w-100 no-copy" src="{% static 'img/slide-2.png' %}" alt="Askor chain second slide preview">
                       </div>
                   </div>
               </div>
@@ -34,9 +34,9 @@
         </div>
     </div>
 </div>
-
-<div class="index-border"></div>
-
+{% if len_products_images > 0 %}
+    <div class="index-border"></div>
+{% endif %}
 <div class="catalog">
 <div class="section-new">
     <div class="container">
