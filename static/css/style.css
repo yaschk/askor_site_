@@ -171,7 +171,7 @@ body{
 
 .product-wrap:after {
   content: '';
-  background: rgba(158,126,126, .5);
+  background: rgba(179, 138, 138, .5);
   position: absolute;
   left: 0;
   right: 0;
@@ -959,15 +959,16 @@ ul.thumb li img{
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
-    width: 90%;
-<<<<<<< HEAD
-    /*height: 300px*/
-=======
+    min-width: 400px;
     height: 350px
->>>>>>> 73d572ff68bb41f3ba611557cdcc2f491e212845
 
 }
 
 .wrap-info-page{
     font-family: 'Roboto Mono', monospace;
+}
+
+.index-border{
+    background-color: rgba(179, 138, 138, 0.8);
+    height: 60px;
 }

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 15:24+0300\n"
+"POT-Creation-Date: 2019-07-02 21:31+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,6 @@ msgid "Аскор - Головна, контакти, продукція, тов
 msgstr "Аскор - Главная, контакты, продукция, товары, услуги, цены"
 
 #: .\templates\base.html:9
-
 msgid ""
 "Інформація про компанію, аскор, askor, продукція компанії аскор, телефон, "
 "запропоновані товари та послуги, ООО Компанія Аскор, транспортери на базі "
@@ -184,11 +183,11 @@ msgstr ""
 "Высококачественная оцинковка дает возможность использования цепей в открытых "
 "условиях, а также в воде.</p>"
 
-#: .\templates\landing\product-item.html:10
+#: .\templates\landing\product-item.html:11
 msgid "Деталі"
 msgstr "Подробнее"
 
-#: .\templates\landing\product-item.html:15
+#: .\templates\landing\product-item.html:16
 msgid "від"
 msgstr "от"
 
@@ -199,17 +198,21 @@ msgid ""
 msgstr ""
 "Детальная информация о товаре/услуге и поставщика. Цена и условия поставки"
 
-#: .\templates\landing\product_catalog.html:7
+#: .\templates\landing\product_catalog.html:8
 msgid "продукція та товари «ООО \"Компанія Аскор\"»"
 msgstr "продукция и товары ТОВ Компании Аскор"
 
-#: .\templates\landing\product_catalog.html:8
+#: .\templates\landing\product_catalog.html:9
 msgid "Товари по категорії з фото та ціною «ООО \"Компанії Аскор\"»"
 msgstr "Товары по категории с фото и ценой  «ТОВ Компании Аскор»"
 
-#: .\templates\landing\product_catalog.html:9
+#: .\templates\landing\product_catalog.html:10
 msgid "Товари по категорії, продукція, фото, ціна «ООО \"Компанії Аскор\"»"
 msgstr "Товары по категории, продукция, фото, цена «ТОВ \"Компания Аскор\"»"
+
+#: .\templates\landing\product_catalog.html:16
+msgid "Головна"
+msgstr "Главная"
 
 #: .\templates\navbar.html:14
 msgid "Товари та послуги"
