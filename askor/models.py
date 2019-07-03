@@ -3,7 +3,7 @@ from django.db import models
 
 class ProductCategory(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
-    image = models.ImageField(upload_to='categories_images/', default=None, blank=True, null=True)
+    image = models.ImageField(upload_to='categories_images/')
     is_active = models.BooleanField(default=True)
 
     def __str__(self):
