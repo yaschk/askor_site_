@@ -959,21 +959,8 @@ ul.thumb li img{
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
-<<<<<<< HEAD
     min-width: 400px;
     height: 350px
-=======
-    width: 90%;
-<<<<<<< HEAD
-    /*height: 300px*/
-=======
-<<<<<<< HEAD
-    /*height: 300px*/
-=======
-    height: 350px
->>>>>>> 73d572ff68bb41f3ba611557cdcc2f491e212845
->>>>>>> 1f9d4fcdc5a3153cf3ce5c0be74dd152847a5216
->>>>>>> 3e88422ff89b3da0ba79851579ea84cfb12064d1
 
 }
 
@@ -981,7 +968,3 @@ ul.thumb li img{
     font-family: 'Roboto Mono', monospace;
 }
 
-.index-border{
-    background-color: rgba(179, 138, 138, 0.8);
-    height: 60px;
-}

@@ -9,6 +9,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+    {% if len_categories > 0 %}
       <li class="nav-item dropdown" id="menu-item">
             <a class="nav-link dropdown-toggle no-copy" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {% trans 'Товари та послуги' %}
@@ -21,6 +22,7 @@
                 {% endfor %}
             </div>
       </li>
+    {% endif %}
       <li class="nav-item" id="menu-item">
             <a class="nav-link active no-copy external" href="/info">{% trans 'Про компанію' %}</a>
       </li>
