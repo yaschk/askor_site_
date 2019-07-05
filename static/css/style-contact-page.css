@@ -89,3 +89,7 @@
 .box:hover a{
     color: #205067;
 }
+
+.info{
+    pointer-events: none;
+}

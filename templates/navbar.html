@@ -9,7 +9,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-    {% if len_categories > 0 %}
+    {% if len_products > 0 and len_categories > 0 %}
       <li class="nav-item dropdown" id="menu-item">
             <a class="nav-link dropdown-toggle no-copy" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {% trans 'Товари та послуги' %}
@@ -17,7 +17,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% for cat in product_categories %}
                     {% if cat.name in arr %}
-                    <a class="dropdown-item no-copy external" href="{% url 'product_catalog' cat.id %}">{{ cat.name }}</a>{% if cat.name != last_category %}<div class="dropdown-divider"></div>{% endif %}
+                    <a class="dropdown-item no-copy external" {% if cat.is_table %}href="{% url 'product_table' cat.id %}"{% else %}href="{% url 'product_catalog' cat.id %}"{% endif %}>{{ cat.name }}</a>{% if cat.name != last_category %}<div class="dropdown-divider"></div>{% endif %}
                     {% endif %}
                 {% endfor %}
             </div>

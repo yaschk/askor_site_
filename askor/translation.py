@@ -8,4 +8,4 @@ class ProductTranslationOptions(TranslationOptions):
 
 @register(ProductCategory)
 class ProductCategoryTranslationOptions(TranslationOptions):
-    fields = ('name',)
+    fields = ('name', 'material', 'coating', 'application_area')

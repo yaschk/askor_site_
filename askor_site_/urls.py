@@ -36,5 +36,6 @@ urlpatterns += i18n_patterns(
     url(r'^info/', views.info, name='info'),
     url(r'^contacts/', views.contacs, name='contacts'),
     url(r'^category(?P<product_category>[0-9])/$', views.product_catalog, name='product_catalog'),
+    url(r'^category-table(?P<product_category>[0-9])/$', views.product_table, name='product_table'),
     url(r'^category(?P<product_category>[0-9])/product(?P<product_id>\w+)/$', views.product, name='product'),
 )

@@ -313,7 +313,6 @@ body{
 .right-column {
   width: 50%;
   margin-top: 5px;
-
 }
 
 /* Left Column */
@@ -755,19 +754,22 @@ select::-ms-expand {
 .container-prod-details{
     margin-top: 30px;
     margin-bottom: 100px;
-    background: rgba(250,250,250,0.8);
+    background: rgba(0,0,0,0.8);
     padding: 30px;
-    border-radius: 25px;
+    border-radius: 15px;
+    color: white;
 }
 
 .right-col{
     text-align: left;
+    margin-top: 40px;
 }
 
 .prod-title-detail{
     font-family: 'Roboto Mono', monospace;
     padding-left: 20px;
-    font-size: 160%;
+    font-size: 200%;
+    /*padding-top: 50px;*/
 }
 
 .prod-stock-detail{
@@ -789,8 +791,10 @@ select::-ms-expand {
 }
 
 .gallery{
-    border-right: 1px solid #dee2e6!important;
-    border-left: 1px solid #dee2e6!important;
+    /*border-right: 1px solid #dee2e6!important;*/
+    /*border-left: 1px solid #dee2e6!important;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -968,3 +972,80 @@ ul.thumb li img{
     font-family: 'Roboto Mono', monospace;
 }
 
+.prod-table-title{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px 20px 20px 0px;
+    padding-right: 20px;
+}
+
+.prod-table-img{
+    padding: 10px;
+}
+
+.prod-table-img p{
+    text-align: center;
+}
+
+.table-top-block{
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    margin: 30px 30px;
+    border-radius: 15px;
+}
+
+.prod-table-img-desc{
+    color: white;
+    padding: 20px;
+    font-size: 80%;
+}
+
+.table-container{
+    padding-top: 30px;
+}
+
+.prod-table{
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-collapse: collapse;
+}
+
+.prod-table tr th {
+    text-transform: uppercase;
+    /*font-family: 'Roboto Mono', monospace;*/
+    text-align: center;
+    padding:  15px;
+    font-size: 70%;
+    background-color: rgba(179, 138, 138, 0.8);
+    border: none;
+}
+
+.prod-table tr td {
+
+    /*font-family: 'Roboto Mono', monospace;*/
+    text-align: center;
+    padding:  10px;
+    font-size: 90%;
+    border: none;
+}
+
+.short_descr td{
+    width: 100%;
+}
+
+.short_descr tr td {
+    padding: 6px;
+}
+
+
+.prod-table tr:nth-child(odd) {
+ background-color: rgba(211, 211, 211, 0.2);
+}
+.prod-table tr:nth-child(even) {
+ background-color:white;
+}
+
+.articul{
+    font-size: 90%;
+}

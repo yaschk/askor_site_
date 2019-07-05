@@ -4,7 +4,14 @@ from django.db import models
 class ProductCategory(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
     image = models.ImageField(upload_to='categories_images/')
+    is_table = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
+    standart = models.CharField(max_length=50, blank=True, null=True, default=None)
+    material = models.CharField(max_length=50, blank=True, null=True, default=None)
+    coating = models.CharField(max_length=50, blank=True, null=True, default=None)
+    application_area = models.CharField(max_length=50, blank=True, null=True, default=None)
+    diameter = models.CharField(max_length=50, blank=True, null=True, default=None)
+
 
     def __str__(self):
 
@@ -17,11 +24,12 @@ class ProductCategory(models.Model):
 
 class Product(models.Model):
     product_name = models.CharField(max_length=130, blank=True, null=True, default=None)
+    articul = models.CharField(max_length=20,blank=True, null=True, default=None)
     price = models.DecimalField(max_length=10, blank=True, null=True, max_digits=10, decimal_places=2, default=0.00)
     in_stock = models.CharField(max_length=50, blank=True, null=True, default=0)
     add_info = models.CharField(max_length=50, blank=True, null=True, default=0)
     discount = models.IntegerField(default=0)
-    category = models.ForeignKey(ProductCategory, on_delete=models.CASCADE, blank=True, null=True, default=None)
+    category = models.ForeignKey(ProductCategory, on_delete=models.CASCADE)
     description = models.TextField(blank=True, null=True, default=None)
     keywords = models.TextField(blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)

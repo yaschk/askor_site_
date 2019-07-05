@@ -3,7 +3,11 @@
 <div class="cat-border">
   <div class="wrap">
       {% if product_category.name in arr %}
-        <a class="cat-link" href="{% url 'product_catalog' product_category.id %}">
+          {% if product_category.is_table %}
+                <a class="cat-link" href="{% url 'product_table' product_category.id %}">
+          {% else %}
+                <a class="cat-link" href="{% url 'product_catalog' product_category.id %}">
+          {% endif %}
           <style>
             #cat{{ product_category.id }}:hover, #cat{{ product_category.id }}:focus, #cat{{ product_category.id }}:active {
               background: url({% static 'img/more-info.png' %}) no-repeat 50% 50%;

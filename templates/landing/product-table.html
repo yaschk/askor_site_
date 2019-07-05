@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% load currency %}
+{%  currency_context  %}
+{#{% load cache %}#}
+{% load i18n %}
+{% block title %}{{ prod_cat.name }} {% trans 'продукція та товари «ООО "Компанія Аскор"»' %}{% endblock %}
+{% block description %}{% trans 'Товари по категорії з фото та ціною «ООО "Компанії Аскор"»'%}{% endblock %}
+{% block keywords %}{% trans 'Товари по категорії, продукція, фото, ціна «ООО "Компанії Аскор"»' %}{% endblock %}
+{% block content %}
+<div class="catalog">
+    <div class="container catalog-container">
+        <div class="row">
+            <div class="page-path no-copy">
+                <a href="/">{% trans 'Головна' %}</a> / <a href="#">{{ prod_cat.name }}</a>
+            </div>
+            <div class="col-lg-12 table-top-block">
+                      <div class="prod-table-title no-copy">
+                          <h1>{{ prod_cat.name }}</h1>
+                      </div>
+                      <div class="container">
+                          <div class="row">
+                               <div class="prod-table-img col-md-auto no-copy">
+                                   <p><img src="{{ prod_cat.image.url }}" alt="{{ prod_cat.name }}"></p>
+
+                          </div>
+                          <div class="prod-table-img-desc col-md-auto">
+                             <table class="short_descr">
+                                <tbody>
+                                {% if  prod_cat.standart != None %}
+                                    <tr>
+                                        <td nowrap>{% trans 'Стандарт (група)' %}</td>
+                                        <td nowrap><b>
+                                            {{ prod_cat.standart }}
+                                            </b>
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                {% if  prod_cat.material != None %}
+                                    <tr>
+                                        <td nowrap>{% trans 'Матеріал' %}</td>
+                                        <td nowrap>
+                                            <b>{{ prod_cat.material }}</b>
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                {% if  prod_cat.coating != None %}
+                                    <tr>
+                                        <td nowrap>{% trans 'Покриття' %}</td>
+                                        <td nowrap>
+                                            <b>{{ prod_cat.coating }}</b>
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                {% if  prod_cat.application_area != None %}
+                                    <tr>
+                                        <td nowrap>{% trans 'Область застосування' %}</td>
+                                        <td nowrap>
+                                            <b>{{ prod_cat.application_area }}</b>
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                {% if  prod_cat.diameter != None %}
+                                    <tr>
+                                        <td nowrap>{% trans 'Діаметр, мм' %}</td>
+                                        <td nowrap><b>{{ prod_cat.diameter }}</b>
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                </tbody>
+                             </table>
+                          </div>
+                          </div>
+                       </div>
+                       <div class="table-container">
+                       <table class="prod-table" border="1">
+                           <tr class="no-copy">
+                            <th>{% trans 'артикул, назва товару' %}</th>
+{#                            <th>{% trans 'упаковка' %}</th>#}
+                            <th>{% trans 'ціна (розд.), грн/м'%}</th>
+                            <th>{% trans 'ціна (опт.), грн/м'%}</th>
+                           </tr>
+
+                           {% for product in all_cat_prod %}
+                                <tr><td><a href="{% url 'product' product_category=product_category product_id=product.id%}">{{ product.articul }}<br> <b>{{ product.product_name }}</b></a></td><td><b>{{ product.price }}</b></td><td><b>{{ product.price }}</b></td></tr>
+                           {% endfor %}
+                       </table>
+                       </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'footer.html' %}
+{% endblock %}

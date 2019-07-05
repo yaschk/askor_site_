@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 21:31+0300\n"
+"POT-Creation-Date: 2019-07-05 16:38+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,7 +114,7 @@ msgstr "АДРЕС"
 msgid "Україна, Київ, вул. Глібова 7"
 msgstr "Украина, Киев, ул. Глебова 7"
 
-#: .\templates\landing\index.html:44
+#: .\templates\landing\index.html:46
 msgid "Продукція"
 msgstr "Продукция"
 
@@ -191,6 +191,59 @@ msgstr "Подробнее"
 msgid "від"
 msgstr "от"
 
+#: .\templates\landing\product-table.html:8
+#: .\templates\landing\product_catalog.html:8
+msgid "продукція та товари «ООО \"Компанія Аскор\"»"
+msgstr "продукция и товары ТОВ Компании Аскор"
+
+#: .\templates\landing\product-table.html:9
+#: .\templates\landing\product_catalog.html:9
+msgid "Товари по категорії з фото та ціною «ООО \"Компанії Аскор\"»"
+msgstr "Товары по категории с фото и ценой  «ТОВ Компании Аскор»"
+
+#: .\templates\landing\product-table.html:10
+#: .\templates\landing\product_catalog.html:10
+msgid "Товари по категорії, продукція, фото, ціна «ООО \"Компанії Аскор\"»"
+msgstr "Товары по категории, продукция, фото, цена «ТОВ \"Компания Аскор\"»"
+
+#: .\templates\landing\product-table.html:16
+#: .\templates\landing\product.html:13
+#: .\templates\landing\product_catalog.html:16
+msgid "Головна"
+msgstr "Главная"
+
+#: .\templates\landing\product-table.html:33
+msgid "Стандарт (група)"
+msgstr "Стандарт (группа)"
+
+#: .\templates\landing\product-table.html:42
+msgid "Матеріал"
+msgstr "Материал"
+
+#: .\templates\landing\product-table.html:50
+msgid "Покриття"
+msgstr "Покрытие"
+
+#: .\templates\landing\product-table.html:58
+msgid "Область застосування"
+msgstr "Область применения"
+
+#: .\templates\landing\product-table.html:66
+msgid "Діаметр, мм"
+msgstr "Диаметр, мм"
+
+#: .\templates\landing\product-table.html:79
+msgid "артикул, назва товару"
+msgstr ""
+
+#: .\templates\landing\product-table.html:81
+msgid "ціна (розд.), грн/м"
+msgstr ""
+
+#: .\templates\landing\product-table.html:82
+msgid "ціна (опт.), грн/м"
+msgstr ""
+
 #: .\templates\landing\product.html:6 .\templates\landing\product.html:7
 msgid ""
 "Детальна інформація про товар/послугу та постачальника. Ціна та умови "
@@ -198,31 +251,15 @@ msgid ""
 msgstr ""
 "Детальная информация о товаре/услуге и поставщика. Цена и условия поставки"
 
-#: .\templates\landing\product_catalog.html:8
-msgid "продукція та товари «ООО \"Компанія Аскор\"»"
-msgstr "продукция и товары ТОВ Компании Аскор"
-
-#: .\templates\landing\product_catalog.html:9
-msgid "Товари по категорії з фото та ціною «ООО \"Компанії Аскор\"»"
-msgstr "Товары по категории с фото и ценой  «ТОВ Компании Аскор»"
-
-#: .\templates\landing\product_catalog.html:10
-msgid "Товари по категорії, продукція, фото, ціна «ООО \"Компанії Аскор\"»"
-msgstr "Товары по категории, продукция, фото, цена «ТОВ \"Компания Аскор\"»"
-
-#: .\templates\landing\product_catalog.html:16
-msgid "Головна"
-msgstr "Главная"
-
-#: .\templates\navbar.html:14
+#: .\templates\navbar.html:15
 msgid "Товари та послуги"
 msgstr "Товары и услуги"
 
-#: .\templates\navbar.html:25
+#: .\templates\navbar.html:27
 msgid "Про компанію"
 msgstr "О компании"
 
-#: .\templates\navbar.html:28
+#: .\templates\navbar.html:30
 msgid "Контакти"
 msgstr "Контакты"
 
