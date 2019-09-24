@@ -1,41 +1,24 @@
-"""askor_site URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.2/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import include
 from django.conf import settings
 from django.conf.urls.static import static
 from askor import views
-from django.conf.urls import url
 from django.conf.urls.i18n import i18n_patterns
-from django.urls import path, re_path
+from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^i18n/', include('django.conf.urls.i18n')),
-    url(r'^currencies/', include('currencies.urls')),
+    path('i18n/', include('django.conf.urls.i18n')),
+    path('currencies/', include('currencies.urls')),
 ]\
               + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) \
               + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += i18n_patterns(
-    url(r'^$', views.index, name='index'),
-    url(r'^info/', views.info, name='info'),
-    url(r'^contacts/', views.contacs, name='contacts'),
-    url(r'^category(?P<product_category>[0-9])/$', views.product_catalog, name='product_catalog'),
-    url(r'^category-table(?P<product_category>[0-9])/$', views.product_table, name='product_table'),
-    url(r'^category(?P<product_category>[0-9])/product(?P<product_id>\w+)/$', views.product, name='product'),
+    path('', views.index, name='index'),
+    path('info/', views.info, name='info'),
+    path('contacts/', views.contacs, name='contacts'),
+    path('category/<product_category>/', views.product_catalog, name='product_catalog'),
+    path('category-table/<product_category>/', views.product_table, name='product_table'),
+    path('category/<product_category>/product/<product_id>/', views.product, name='product'),
 )
